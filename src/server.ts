@@ -1,5 +1,4 @@
 import express, { Request, Response, NextFunction } from 'express';
-import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { Server } from 'http';
@@ -16,9 +15,24 @@ import taskApplicationRoutes from './routes/task.application.routes';
 import profileRoutes from './routes/profile.routes';
 import dotenv from "dotenv";
 const app = express();
+import cors, { CorsOptions } from "cors";
 
-const corsOptions = {
-  origin: 'http://localhost:5173',
+
+const allowedOrigins = [
+  "http://localhost:5173", // For local development
+  "https://writers-frontend-9be5f1bac35e.herokuapp.com", // Heroku frontend
+    "https://writerscoreresearch.com",
+    "https://www.writerscoreresearch.com/"
+];
+
+const corsOptions: CorsOptions  = {
+      origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) => {
+        if (!origin || allowedOrigins.includes(origin)) {
+          callback(null, true); // Allow request
+        } else {
+          callback(new Error("Not allowed by CORS")); // Block request
+        }
+      },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
