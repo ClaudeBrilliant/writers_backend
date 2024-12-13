@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\USER\\OneDrive\\Desktop\\writerscore_agency\\Writerscore_Agency\\server\\logs\\.746bbb8df4d953061a48a1146bbce66fd2a8b298-audit.json",
+    "files": [
+        {
+            "date": 1733842455912,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\writerscore_agency\\Writerscore_Agency\\server\\logs\\application-2024-12-10.log",
+            "hash": "a7d2b1240d43b2ed90df32b9b528bf2876a1dd0d31ca375d5010ade1139a4466"
+        },
+        {
+            "date": 1733898330489,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\writerscore_agency\\Writerscore_Agency\\server\\logs\\application-2024-12-11.log",
+            "hash": "9bc9aa591a193bb4320a5d31be1c8a3c6e9b3680d564d692097b484c70188a75"
+        }
+    ],
+    "hashType": "sha256"
+}

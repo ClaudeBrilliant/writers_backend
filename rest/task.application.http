@@ -1,0 +1,58 @@
+### Create a New Task Application
+@applicationId = ''
+POST http://localhost:5000/api/task-applications
+Content-Type: application/json
+
+{
+  "taskId": "123e4567-e89b-12d3-a456-426614174000",
+  "userId": "456e4567-e89b-12d3-a456-426614174001",
+  "status": "PENDING"
+}
+
+# Replace `taskId` and `userId` with valid IDs from your database.
+
+###
+
+### Get All Task Applications
+GET http://localhost:5000/api/task-applications
+Content-Type: application/json
+
+###
+
+### Get a Task Application by ID
+GET http://localhost:5000/api/task-applications/{{applicationId}}
+Content-Type: application/json
+
+# Replace `{{applicationId}}` with a valid application ID from your database.
+
+###
+
+### Update a Task Application
+PUT http://localhost:5000/api/task-applications/{{applicationId}}
+Content-Type: application/json
+
+{
+  "status": "APPROVED"
+}
+
+# Replace `{{applicationId}}` with a valid application ID.
+
+###
+
+### Soft Delete a Task Application
+DELETE http://localhost:5000/api/task-applications/{{applicationId}}
+Content-Type: application/json
+
+# Replace `{{applicationId}}` with a valid application ID.
+
+###
+
+### Update the Status of a Task Application
+PATCH http://localhost:5000/api/task-applications/{{applicationId}}/status
+Content-Type: application/json
+
+{
+  "status": "APPROVED"
+}
+
+# Replace `{{applicationId}}` with a valid application ID.

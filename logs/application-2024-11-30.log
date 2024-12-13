@@ -1,0 +1,318 @@
+2024-11-30T06:25:49.251Z [info]: Server started on port 5000
+2024-11-30T06:26:23.320Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:26:23 +0000] "GET /api/categories HTTP/1.1" 200 495 "-" "vscode-restclient"
+2024-11-30T06:27:39.760Z [info]: User logged in: testuser@example.com
+2024-11-30T06:27:39.763Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:27:39 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "-" "vscode-restclient"
+2024-11-30T06:43:55.115Z [info]: ::1 - - [30/Nov/2024:06:43:55 +0000] "GET /users/%7B%7BuserId%7D%7D HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T06:55:08.700Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:55:08 +0000] "GET /api/users HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T06:55:52.805Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:55:52 +0000] "POST /api/categories HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T06:55:59.507Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:55:59 +0000] "GET /api/categories HTTP/1.1" 200 495 "-" "vscode-restclient"
+2024-11-30T06:56:27.704Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:56:27 +0000] "GET /api/users/f4f169bc-0aa7-4d2e-a1bd-2ea71666e1f2 HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T06:57:38.917Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:06:57:38 +0000] "PUT /api/users/f4f169bc-0aa7-4d2e-a1bd-2ea71666e1f2 HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T07:16:44.957Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-11-30T08:16:26.342Z [info]: Server started on port 5000
+2024-11-30T08:16:45.846Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:16:45 +0000] "POST /api/auth/reset-password HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T08:17:13.373Z [info]: User logged in: admin@example.com
+2024-11-30T08:17:13.376Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:17:13 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "-" "vscode-restclient"
+2024-11-30T08:17:36.256Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:17:36 +0000] "POST /api/auth/reset-password-with-token HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T08:18:02.840Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:18:02 +0000] "POST /api/auth/reset-password HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T08:20:29.683Z [info]: ::1 - - [30/Nov/2024:08:20:29 +0000] "GET /users HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T08:20:35.405Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:20:35 +0000] "GET /users HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T08:20:49.626Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:20:49 +0000] "GET /api/users HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T08:21:29.766Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:21:29 +0000] "DELETE /api/users/f4f169bc-0aa7-4d2e-a1bd-2ea71666e1f2 HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T08:28:18.587Z [info]: Server started on port 5000
+2024-11-30T08:28:29.301Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:28:29 +0000] "GET /api/users HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T08:41:35.243Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:41:35 +0000] "PUT /api/transactions/%27%27 HTTP/1.1" 500 454 "-" "vscode-restclient"
+2024-11-30T08:42:01.008Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:08:42:01 +0000] "GET /api/transactions HTTP/1.1" 200 2 "-" "vscode-restclient"
+2024-11-30T08:56:01.440Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-11-30T08:56:15.837Z [info]: Server started on port 5000
+2024-11-30T12:33:31.551Z [info]: Server started on port 5000
+2024-11-30T12:33:33.834Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:33:33 +0000] "POST /api/auth/register HTTP/1.1" 500 431 "-" "vscode-restclient"
+2024-11-30T12:45:55.977Z [info]: Server started on port 5000
+2024-11-30T12:46:18.856Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:46:18 +0000] "POST /api/auth/register HTTP/1.1" 500 389 "-" "vscode-restclient"
+2024-11-30T12:47:13.108Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:47:13 +0000] "POST /api/auth/register HTTP/1.1" 500 389 "-" "vscode-restclient"
+2024-11-30T12:51:34.730Z [info]: Server started on port 5000
+2024-11-30T12:51:44.333Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:51:44 +0000] "POST /api/categories HTTP/1.1" 201 258 "-" "vscode-restclient"
+2024-11-30T12:52:16.850Z [info]: New user registered: admin@example.com
+2024-11-30T12:52:16.853Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:52:16 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "-" "vscode-restclient"
+2024-11-30T12:52:41.424Z [info]: Server started on port 5000
+2024-11-30T12:53:37.844Z [info]: New user registered: user@example.com
+2024-11-30T12:53:37.861Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:53:37 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "-" "vscode-restclient"
+2024-11-30T12:54:38.606Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:54:38 +0000] "POST /api/profiles HTTP/1.1" 500 442 "-" "vscode-restclient"
+2024-11-30T12:57:12.155Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:57:12 +0000] "POST /api/auth/login HTTP/1.1" 403 61 "-" "vscode-restclient"
+2024-11-30T12:57:45.389Z [info]: User logged in: user@example.com
+2024-11-30T12:57:45.391Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:57:45 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "-" "vscode-restclient"
+2024-11-30T12:58:19.425Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:12:58:19 +0000] "POST /api/profiles HTTP/1.1" 500 442 "-" "vscode-restclient"
+2024-11-30T13:00:55.310Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:00:55 +0000] "POST /api/profiles/c70a0363-8155-439f-a23e-10db97ac0364%27 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:02:10.232Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:02:10 +0000] "POST /api/profiles/c70a0363-8155-439f-a23e-10db97ac0364%27 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:03:45.441Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:03:45 +0000] "POST /api/profiles/:c70a0363-8155-439f-a23e-10db97ac0364%27 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:04:03.393Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:04:03 +0000] "POST /api/profiles/c70a0363-8155-439f-a23e-10db97ac0364 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:04:04.254Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:04:04 +0000] "POST /api/profiles/c70a0363-8155-439f-a23e-10db97ac0364 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:04:04.661Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:04:04 +0000] "POST /api/profiles/c70a0363-8155-439f-a23e-10db97ac0364 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:04:04.797Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:04:04 +0000] "POST /api/profiles/c70a0363-8155-439f-a23e-10db97ac0364 HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:04:18.601Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:04:18 +0000] "POST /api/profiles HTTP/1.1" 500 442 "-" "vscode-restclient"
+2024-11-30T13:05:52.512Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-11-30T13:21:24.815Z [info]: Server started on port 5000
+2024-11-30T13:22:26.628Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:22:26 +0000] "POST /api/auth/register HTTP/1.1" 500 362 "-" "vscode-restclient"
+2024-11-30T13:22:40.070Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:22:40 +0000] "POST /api/auth/register HTTP/1.1" 500 362 "-" "vscode-restclient"
+2024-11-30T13:23:05.531Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:23:05 +0000] "POST /api/categories HTTP/1.1" 403 25 "-" "vscode-restclient"
+2024-11-30T13:23:33.134Z [info]: Server started on port 5000
+2024-11-30T13:23:38.699Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:23:38 +0000] "POST /api/categories HTTP/1.1" 201 258 "-" "vscode-restclient"
+2024-11-30T13:23:52.853Z [info]: New user registered: user@example.com
+2024-11-30T13:23:52.855Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:23:52 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "-" "vscode-restclient"
+2024-11-30T13:23:56.512Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:23:56 +0000] "POST /api/auth/login HTTP/1.1" 403 61 "-" "vscode-restclient"
+2024-11-30T13:24:19.617Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:24:19 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:24:31.621Z [info]: User logged in: user@example.com
+2024-11-30T13:24:31.623Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:24:31 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "-" "vscode-restclient"
+2024-11-30T13:25:26.811Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:25:26 +0000] "POST /api/profiles/%7B%7B%7B%7BprofileId%7D%7D%7D%7D HTTP/1.1" 404 29 "-" "vscode-restclient"
+2024-11-30T13:25:32.179Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:25:32 +0000] "GET /api/profiles HTTP/1.1" 200 645 "-" "vscode-restclient"
+2024-11-30T13:25:42.225Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:25:42 +0000] "GET /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 643 "-" "vscode-restclient"
+2024-11-30T13:25:53.799Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:25:53 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:36.199Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:36 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:37.244Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:37 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:37.866Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:37 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:52.464Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:52 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:53.754Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:53 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:54.413Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:54 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:55.144Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:55 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:55.635Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:55 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:56.151Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:56 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:56.470Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:56 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:56.628Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:56 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:56.840Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:56 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:56.991Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:56 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:57.574Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:57 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:57.807Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:57 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:58.012Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:58 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:58.242Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:58 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:58.394Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:58 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:58.574Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:58 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:26:58.785Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:26:58 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:31.721Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:31 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:32.521Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:32 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:33.197Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:33 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:33.472Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:33 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:33.754Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:33 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:33.896Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:33 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:27:34.300Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:27:34 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 670 "-" "vscode-restclient"
+2024-11-30T13:28:07.352Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:28:07 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 673 "-" "vscode-restclient"
+2024-11-30T13:28:57.229Z [info]: Server started on port 5000
+2024-11-30T13:29:08.083Z [info]: Server started on port 5000
+2024-11-30T13:29:33.024Z [info]: Server started on port 5000
+2024-11-30T13:29:46.502Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:29:46 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 673 "-" "vscode-restclient"
+2024-11-30T13:29:48.091Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:29:48 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 673 "-" "vscode-restclient"
+2024-11-30T13:29:54.023Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:29:54 +0000] "PUT /api/profiles/bb6d23a3-fa1a-420c-9bf1-3d861970d8a5 HTTP/1.1" 200 674 "-" "vscode-restclient"
+2024-11-30T13:31:33.639Z [info]: Server started on port 5000
+2024-11-30T13:31:51.421Z [info]: Server started on port 5000
+2024-11-30T13:32:03.978Z [info]: Server started on port 5000
+2024-11-30T13:32:33.231Z [info]: Server started on port 5000
+2024-11-30T13:33:38.280Z [info]: Server started on port 5000
+2024-11-30T13:34:33.663Z [info]: Server started on port 5000
+2024-11-30T13:35:07.330Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:35:07 +0000] "POST /api/tasks HTTP/1.1" 500 387 "-" "vscode-restclient"
+2024-11-30T13:36:38.190Z [info]: New user registered: Admin@example.com
+2024-11-30T13:36:38.193Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:36:38 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "-" "vscode-restclient"
+2024-11-30T13:37:14.885Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:14 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:28.486Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:28 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:29.274Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:29 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:29.503Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:29 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:30.293Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:30 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:30.505Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:30 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:30.726Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:30 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:37:30.840Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:37:30 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "-" "vscode-restclient"
+2024-11-30T13:38:20.433Z [info]: User logged in: Admin@example.com
+2024-11-30T13:38:20.434Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:38:20 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "-" "vscode-restclient"
+2024-11-30T13:38:55.966Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:38:55 +0000] "POST /api/tasks HTTP/1.1" 500 387 "-" "vscode-restclient"
+2024-11-30T13:39:15.680Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:13:39:15 +0000] "POST /api/tasks HTTP/1.1" 500 387 "-" "vscode-restclient"
+2024-11-30T13:42:52.289Z [info]: Server started on port 5000
+2024-11-30T13:43:22.701Z [info]: Server started on port 5000
+2024-11-30T15:04:55.667Z [info]: Server started on port 5000
+2024-11-30T15:12:53.603Z [info]: ::1 - - [30/Nov/2024:15:12:53 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:15:45.384Z [info]: Server started on port 5000
+2024-11-30T15:16:07.776Z [info]: Server started on port 5000
+2024-11-30T15:16:14.880Z [info]: ::1 - - [30/Nov/2024:15:16:14 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:16:14.961Z [info]: ::1 - - [30/Nov/2024:15:16:14 +0000] "POST /api/auth/register HTTP/1.1" 400 302 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:16:25.877Z [info]: ::1 - - [30/Nov/2024:15:16:25 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:16:25.887Z [info]: ::1 - - [30/Nov/2024:15:16:25 +0000] "POST /api/auth/register HTTP/1.1" 400 302 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:17:21.942Z [info]: ::1 - - [30/Nov/2024:15:17:21 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:17:21.953Z [info]: ::1 - - [30/Nov/2024:15:17:21 +0000] "POST /api/auth/register HTTP/1.1" 400 302 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:40:12.081Z [info]: Server started on port 5000
+2024-11-30T15:42:11.057Z [info]: Server started on port 5000
+2024-11-30T15:45:28.593Z [info]: Server started on port 5000
+2024-11-30T15:56:14.337Z [info]: ::1 - - [30/Nov/2024:15:56:14 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T15:56:14.395Z [info]: ::1 - - [30/Nov/2024:15:56:14 +0000] "POST /api/auth/register HTTP/1.1" 400 107 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:02:30.685Z [info]: ::1 - - [30/Nov/2024:16:02:30 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:02:30.704Z [info]: ::1 - - [30/Nov/2024:16:02:30 +0000] "POST /api/auth/register HTTP/1.1" 400 107 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:16:33.070Z [info]: Server started on port 5000
+2024-11-30T16:17:04.110Z [info]: ::1 - - [30/Nov/2024:16:17:04 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:17:04.145Z [info]: ::1 - - [30/Nov/2024:16:17:04 +0000] "POST /api/auth/register HTTP/1.1" 400 107 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:17:26.072Z [info]: ::1 - - [30/Nov/2024:16:17:26 +0000] "GET /api/auth/register HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:25:50.348Z [info]: ::1 - - [30/Nov/2024:16:25:50 +0000] "GET /api/auth/register HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:26:31.262Z [info]: ::1 - - [30/Nov/2024:16:26:31 +0000] "GET /api/auth/register HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:26:38.902Z [info]: ::1 - - [30/Nov/2024:16:26:38 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:26:56.219Z [info]: ::1 - - [30/Nov/2024:16:26:56 +0000] "GET /api/user/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:03.960Z [info]: ::1 - - [30/Nov/2024:16:27:03 +0000] "GET /api/user/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:10.284Z [info]: ::1 - - [30/Nov/2024:16:27:10 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:36.910Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-11-30T16:27:46.469Z [info]: Server started on port 5000
+2024-11-30T16:27:52.311Z [info]: ::1 - - [30/Nov/2024:16:27:52 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:53.477Z [info]: ::1 - - [30/Nov/2024:16:27:53 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:54.208Z [info]: ::1 - - [30/Nov/2024:16:27:54 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:54.460Z [info]: ::1 - - [30/Nov/2024:16:27:54 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:54.676Z [info]: ::1 - - [30/Nov/2024:16:27:54 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:54.892Z [info]: ::1 - - [30/Nov/2024:16:27:54 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:55.100Z [info]: ::1 - - [30/Nov/2024:16:27:55 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:55.307Z [info]: ::1 - - [30/Nov/2024:16:27:55 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:55.496Z [info]: ::1 - - [30/Nov/2024:16:27:55 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:55.684Z [info]: ::1 - - [30/Nov/2024:16:27:55 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:55.885Z [info]: ::1 - - [30/Nov/2024:16:27:55 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:27:56.224Z [info]: ::1 - - [30/Nov/2024:16:27:56 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:28:25.155Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-11-30T16:28:48.332Z [info]: Server started on port 5000
+2024-11-30T16:30:01.213Z [info]: ::1 - - [30/Nov/2024:16:30:01 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:30:09.853Z [info]: ::1 - - [30/Nov/2024:16:30:09 +0000] "GET /api/users HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:30:22.780Z [info]: ::1 - - [30/Nov/2024:16:30:22 +0000] "GET /api/users/register HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:30:44.573Z [info]: ::1 - - [30/Nov/2024:16:30:44 +0000] "GET /api/auth/register HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:30:58.928Z [info]: ::1 - - [30/Nov/2024:16:30:58 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:31:08.706Z [info]: ::1 - - [30/Nov/2024:16:31:08 +0000] "GET /api/users/login HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:32:10.768Z [info]: ::1 - - [30/Nov/2024:16:32:10 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:32:10.839Z [info]: ::1 - - [30/Nov/2024:16:32:10 +0000] "POST /api/auth/register HTTP/1.1" 400 107 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:33:07.477Z [info]: ::1 - - [30/Nov/2024:16:33:07 +0000] "OPTIONS /api/users/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:33:07.501Z [info]: ::1 - - [30/Nov/2024:16:33:07 +0000] "POST /api/users/register HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T16:38:43.334Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:16:38:43 +0000] "POST /api/auth/register HTTP/1.1" 400 38 "-" "Thunder Client (https://www.thunderclient.com)"
+2024-11-30T16:38:56.323Z [info]: Register endpoint called
+2024-11-30T16:38:56.325Z [info]: Starting user registration process
+2024-11-30T16:38:56.753Z [error]: Error in register controller: 
+Invalid `prisma.user.create()` invocation in
+C:\Users\USER\OneDrive\Desktop\Writers_score\server\src\services\auth.service.ts:33:37
+
+  30 logger.debug("Password hashed successfully");
+  31 
+  32 // Create user and profile
+→ 33 const newUser = await prisma.user.create(
+Foreign key constraint violated: `User_categoryId_fkey (index)`
+2024-11-30T16:38:56.756Z [error]: Unhandled error: 
+Invalid `prisma.user.create()` invocation in
+C:\Users\USER\OneDrive\Desktop\Writers_score\server\src\services\auth.service.ts:33:37
+
+  30 logger.debug("Password hashed successfully");
+  31 
+  32 // Create user and profile
+→ 33 const newUser = await prisma.user.create(
+Foreign key constraint violated: `User_categoryId_fkey (index)`
+2024-11-30T16:38:56.759Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:16:38:56 +0000] "POST /api/auth/register HTTP/1.1" 500 381 "-" "Thunder Client (https://www.thunderclient.com)"
+2024-11-30T16:39:31.352Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:16:39:31 +0000] "POST /api/auth/register HTTP/1.1" 400 50 "-" "Thunder Client (https://www.thunderclient.com)"
+2024-11-30T16:42:09.664Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:16:42:09 +0000] "GET /api/categories HTTP/1.1" 200 266 "-" "Thunder Client (https://www.thunderclient.com)"
+2024-11-30T16:42:28.977Z [info]: Register endpoint called
+2024-11-30T16:42:28.978Z [info]: Starting user registration process
+2024-11-30T16:42:29.090Z [info]: User created with email: Admin2@example.com
+2024-11-30T16:42:29.091Z [info]: User registered successfully: Admin2@example.com
+2024-11-30T16:42:29.092Z [info]: ::ffff:127.0.0.1 - - [30/Nov/2024:16:42:29 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "-" "Thunder Client (https://www.thunderclient.com)"
+2024-11-30T17:42:10.009Z [info]: Server started on port 5000
+2024-11-30T17:46:04.152Z [info]: ::1 - - [30/Nov/2024:17:46:04 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T17:46:04.229Z [info]: Login endpoint called
+2024-11-30T17:46:04.232Z [info]: User login attempt: user@example.com
+2024-11-30T17:46:04.563Z [warn]: Login failed: Incorrect password for email user@example.com
+2024-11-30T17:46:04.589Z [error]: Error in login controller: Invalid email or password
+2024-11-30T17:46:04.590Z [warn]: Error: Invalid email or password (status: 401)
+2024-11-30T17:46:04.597Z [info]: ::1 - - [30/Nov/2024:17:46:04 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T17:46:39.446Z [info]: ::1 - - [30/Nov/2024:17:46:39 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T18:35:00.579Z [info]: ::1 - - [30/Nov/2024:18:35:00 +0000] "POST /api/auth/login%0A?Content-Type=application/json HTTP/1.1" 404 29 "-" "PostmanRuntime/7.43.0"
+2024-11-30T18:47:23.721Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-11-30T19:27:04.461Z [info]: Server started on port 5000
+2024-11-30T19:31:18.585Z [info]: ::1 - - [30/Nov/2024:19:31:18 +0000] "POST /api/auth/register?content-Type=application/json HTTP/1.1" 400 50 "-" "PostmanRuntime/7.43.0"
+2024-11-30T19:47:25.800Z [info]: Register endpoint called
+2024-11-30T19:47:25.811Z [info]: Starting user registration process
+2024-11-30T19:47:26.341Z [info]: User created with email: test2@example.com
+2024-11-30T19:47:26.343Z [info]: User registered successfully: test2@example.com
+2024-11-30T19:47:26.351Z [info]: ::1 - - [30/Nov/2024:19:47:26 +0000] "POST /api/auth/register?content-Type=application/json HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2024-11-30T19:57:29.752Z [info]: Login endpoint called
+2024-11-30T19:57:29.755Z [info]: User login attempt: user@example.com
+2024-11-30T19:57:30.030Z [warn]: Login failed: Incorrect password for email user@example.com
+2024-11-30T19:57:30.060Z [error]: Error in login controller: Invalid email or password
+2024-11-30T19:57:30.061Z [warn]: Error: Invalid email or password (status: 401)
+2024-11-30T19:57:30.064Z [info]: ::1 - - [30/Nov/2024:19:57:30 +0000] "POST /api/auth/login?Content-Type=application/json HTTP/1.1" 401 52 "-" "PostmanRuntime/7.43.0"
+2024-11-30T19:58:52.665Z [info]: Login endpoint called
+2024-11-30T19:58:52.666Z [info]: User login attempt: user@example.com
+2024-11-30T19:58:52.672Z [warn]: Login failed: Incorrect password for email user@example.com
+2024-11-30T19:58:52.673Z [error]: Error in login controller: Invalid email or password
+2024-11-30T19:58:52.674Z [warn]: Error: Invalid email or password (status: 401)
+2024-11-30T19:58:52.675Z [info]: ::1 - - [30/Nov/2024:19:58:52 +0000] "POST /api/auth/login?Content-Type=application/json HTTP/1.1" 401 52 "-" "PostmanRuntime/7.43.0"
+2024-11-30T20:12:03.546Z [info]: Register endpoint called
+2024-11-30T20:12:03.548Z [info]: Starting user registration process
+2024-11-30T20:12:03.786Z [info]: User created with email: clyde@example.com
+2024-11-30T20:12:03.787Z [info]: User registered successfully: clyde@example.com
+2024-11-30T20:12:03.789Z [info]: ::1 - - [30/Nov/2024:20:12:03 +0000] "POST /api/auth/register?content-Type=application/json HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2024-11-30T20:14:09.727Z [info]: ::1 - - [30/Nov/2024:20:14:09 +0000] "POST /api/auth/login?Content-Type=application/json HTTP/1.1" 400 46 "-" "PostmanRuntime/7.43.0"
+2024-11-30T20:14:31.024Z [info]: Login endpoint called
+2024-11-30T20:14:31.025Z [info]: User login attempt: clyde@example.com
+2024-11-30T20:14:31.030Z [warn]: Login failed: Email clyde@example.com not verified
+2024-11-30T20:14:31.032Z [error]: Error in login controller: Please verify your email to log in
+2024-11-30T20:14:31.032Z [warn]: Error: Please verify your email to log in (status: 403)
+2024-11-30T20:14:31.034Z [info]: ::1 - - [30/Nov/2024:20:14:31 +0000] "POST /api/auth/login?Content-Type=application/json HTTP/1.1" 403 61 "-" "PostmanRuntime/7.43.0"
+2024-11-30T20:15:14.160Z [info]: Login endpoint called
+2024-11-30T20:15:14.160Z [info]: User login attempt: clyde@example.com
+2024-11-30T20:15:14.300Z [info]: User logged in: clyde@example.com
+2024-11-30T20:15:14.301Z [info]: User logged in successfully: clyde@example.com
+2024-11-30T20:15:14.303Z [info]: ::1 - - [30/Nov/2024:20:15:14 +0000] "POST /api/auth/login?Content-Type=application/json HTTP/1.1" 200 237 "-" "PostmanRuntime/7.43.0"
+2024-11-30T20:16:17.016Z [info]: ::1 - - [30/Nov/2024:20:16:17 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:16:17.030Z [info]: Login endpoint called
+2024-11-30T20:16:17.031Z [info]: User login attempt: clyde@example.com
+2024-11-30T20:16:17.151Z [info]: User logged in: clyde@example.com
+2024-11-30T20:16:17.152Z [info]: User logged in successfully: clyde@example.com
+2024-11-30T20:16:17.159Z [info]: ::1 - - [30/Nov/2024:20:16:17 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:52:52.557Z [info]: ::1 - - [30/Nov/2024:20:52:52 +0000] "GET /api/categories HTTP/1.1" 200 266 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:52:52.595Z [info]: ::1 - - [30/Nov/2024:20:52:52 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:52:57.408Z [info]: ::1 - - [30/Nov/2024:20:52:57 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:52:57.858Z [info]: ::1 - - [30/Nov/2024:20:52:57 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:58:07.779Z [info]: ::1 - - [30/Nov/2024:20:58:07 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:58:07.820Z [info]: ::1 - - [30/Nov/2024:20:58:07 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:58:36.354Z [info]: ::1 - - [30/Nov/2024:20:58:36 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:58:36.417Z [info]: ::1 - - [30/Nov/2024:20:58:36 +0000] "POST /api/auth/register HTTP/1.1" 400 69 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:58:44.432Z [info]: ::1 - - [30/Nov/2024:20:58:44 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:58:44.712Z [info]: ::1 - - [30/Nov/2024:20:58:44 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:59:16.394Z [info]: ::1 - - [30/Nov/2024:20:59:16 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T20:59:16.423Z [info]: ::1 - - [30/Nov/2024:20:59:16 +0000] "POST /api/auth/register HTTP/1.1" 400 69 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:30:35.694Z [info]: ::1 - - [30/Nov/2024:21:30:35 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:30:41.660Z [info]: ::1 - - [30/Nov/2024:21:30:41 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:30:41.777Z [info]: ::1 - - [30/Nov/2024:21:30:41 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:31:11.030Z [info]: ::1 - - [30/Nov/2024:21:31:11 +0000] "OPTIONS /api/auth/register HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:31:11.076Z [info]: Register endpoint called
+2024-11-30T21:31:11.083Z [info]: Starting user registration process
+2024-11-30T21:31:11.369Z [info]: User created with email: claudebrilliant@gmail.com
+2024-11-30T21:31:11.371Z [info]: User registered successfully: claudebrilliant@gmail.com
+2024-11-30T21:31:11.374Z [info]: ::1 - - [30/Nov/2024:21:31:11 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:34:53.118Z [info]: ::1 - - [30/Nov/2024:21:34:53 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:34:53.139Z [info]: Login endpoint called
+2024-11-30T21:34:53.141Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-11-30T21:34:53.321Z [info]: User logged in: claudebrilliant@gmail.com
+2024-11-30T21:34:53.323Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-11-30T21:34:53.325Z [info]: ::1 - - [30/Nov/2024:21:34:53 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:49:17.300Z [info]: Server started on port 5000
+2024-11-30T21:56:33.275Z [info]: ::1 - - [30/Nov/2024:21:56:33 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:56:33.363Z [info]: Login endpoint called
+2024-11-30T21:56:33.366Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-11-30T21:56:33.745Z [warn]: Login failed: Incorrect password for email claudebrilliant@gmail.com
+2024-11-30T21:56:33.771Z [error]: Error in login controller: Invalid email or password
+2024-11-30T21:56:33.772Z [warn]: Error: Invalid email or password (status: 401)
+2024-11-30T21:56:33.779Z [info]: ::1 - - [30/Nov/2024:21:56:33 +0000] "POST /api/auth/login HTTP/1.1" 401 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:29.072Z [info]: ::1 - - [30/Nov/2024:21:57:29 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:29.085Z [info]: Login endpoint called
+2024-11-30T21:57:29.087Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-11-30T21:57:29.227Z [info]: User logged in: claudebrilliant@gmail.com
+2024-11-30T21:57:29.228Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-11-30T21:57:29.230Z [info]: ::1 - - [30/Nov/2024:21:57:29 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:51.144Z [info]: ::1 - - [30/Nov/2024:21:57:51 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:51.151Z [info]: Login endpoint called
+2024-11-30T21:57:51.152Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-11-30T21:57:51.251Z [info]: User logged in: claudebrilliant@gmail.com
+2024-11-30T21:57:51.252Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-11-30T21:57:51.254Z [info]: ::1 - - [30/Nov/2024:21:57:51 +0000] "POST /api/auth/login HTTP/1.1" 200 237 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:54.707Z [info]: ::1 - - [30/Nov/2024:21:57:54 +0000] "OPTIONS /api/profiles/undefined HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:54.714Z [info]: ::1 - - [30/Nov/2024:21:57:54 +0000] "OPTIONS /api/profiles/undefined HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:54.740Z [info]: ::1 - - [30/Nov/2024:21:57:54 +0000] "GET /api/profiles/undefined HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T21:57:54.754Z [info]: ::1 - - [30/Nov/2024:21:57:54 +0000] "GET /api/profiles/undefined HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T22:02:52.283Z [info]: ::1 - - [30/Nov/2024:22:02:52 +0000] "OPTIONS /api/profiles/undefined HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T22:02:52.440Z [info]: ::1 - - [30/Nov/2024:22:02:52 +0000] "GET /api/profiles/undefined HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T22:14:47.080Z [info]: ::1 - - [30/Nov/2024:22:14:47 +0000] "OPTIONS /api/profiles/undefined HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T22:14:47.582Z [info]: ::1 - - [30/Nov/2024:22:14:47 +0000] "GET /api/profiles/undefined HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T22:14:47.596Z [info]: ::1 - - [30/Nov/2024:22:14:47 +0000] "GET /api/profiles/undefined HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-11-30T22:27:43.118Z [info]: Received shutdown signal. Shutting down gracefully...

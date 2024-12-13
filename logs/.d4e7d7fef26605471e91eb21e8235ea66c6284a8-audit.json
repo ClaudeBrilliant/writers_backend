@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Jemo\\VS Projects\\server\\logs\\.d4e7d7fef26605471e91eb21e8235ea66c6284a8-audit.json",
+    "files": [
+        {
+            "date": 1734096718878,
+            "name": "C:\\Users\\Jemo\\VS Projects\\server\\logs\\application-2024-12-13.log",
+            "hash": "3bb42890c4f169196f749aa15e1a2c7d6c47354079006da58921da2ad2e7900c"
+        }
+    ],
+    "hashType": "sha256"
+}

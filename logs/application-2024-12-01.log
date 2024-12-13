@@ -1,0 +1,358 @@
+2024-12-01T07:37:02.135Z [info]: Server started on port 5000
+2024-12-01T07:48:25.523Z [info]: ::1 - - [01/Dec/2024:07:48:25 +0000] "GET /api/training-applications HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T07:52:22.536Z [info]: ::1 - - [01/Dec/2024:07:52:22 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T07:52:22.706Z [info]: Login endpoint called
+2024-12-01T07:52:22.713Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T07:52:23.108Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T07:52:23.109Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T07:52:23.115Z [info]: ::1 - - [01/Dec/2024:07:52:23 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T07:56:25.751Z [info]: ::1 - - [01/Dec/2024:07:56:25 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T07:56:25.764Z [info]: Login endpoint called
+2024-12-01T07:56:25.770Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T07:56:25.890Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T07:56:25.891Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T07:56:25.894Z [info]: ::1 - - [01/Dec/2024:07:56:25 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T07:56:45.659Z [info]: ::1 - - [01/Dec/2024:07:56:45 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T07:56:45.672Z [info]: Login endpoint called
+2024-12-01T07:56:45.673Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T07:56:45.774Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T07:56:45.775Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T07:56:45.776Z [info]: ::1 - - [01/Dec/2024:07:56:45 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T08:00:58.529Z [info]: ::1 - - [01/Dec/2024:08:00:58 +0000] "OPTIONS /api/auth/login HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T08:00:58.539Z [info]: Login endpoint called
+2024-12-01T08:00:58.541Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T08:00:58.765Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T08:00:58.766Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T08:00:58.769Z [info]: ::1 - - [01/Dec/2024:08:00:58 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T08:09:17.124Z [info]: Server started on port 5000
+2024-12-01T08:38:56.442Z [info]: Server started on port 5000
+2024-12-01T09:37:43.210Z [info]: ::1 - - [01/Dec/2024:09:37:43 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:39:37.681Z [info]: Server started on port 5000
+2024-12-01T09:39:37.806Z [info]: ::1 - - [01/Dec/2024:09:39:37 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:39:39.466Z [info]: ::1 - - [01/Dec/2024:09:39:39 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:39:40.346Z [info]: ::1 - - [01/Dec/2024:09:39:40 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:48:08.580Z [info]: Server started on port 5000
+2024-12-01T09:52:02.450Z [info]: ::1 - - [01/Dec/2024:09:52:02 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:03.916Z [info]: ::1 - - [01/Dec/2024:09:52:03 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:04.460Z [info]: ::1 - - [01/Dec/2024:09:52:04 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:04.670Z [info]: ::1 - - [01/Dec/2024:09:52:04 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:04.919Z [info]: ::1 - - [01/Dec/2024:09:52:04 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:38.255Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-01T09:52:52.520Z [info]: Server started on port 5000
+2024-12-01T09:52:58.581Z [info]: ::1 - - [01/Dec/2024:09:52:58 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:59.481Z [info]: ::1 - - [01/Dec/2024:09:52:59 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:59.682Z [info]: ::1 - - [01/Dec/2024:09:52:59 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:52:59.872Z [info]: ::1 - - [01/Dec/2024:09:52:59 +0000] "GET /api/user HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:54:29.251Z [info]: ::1 - - [01/Dec/2024:09:54:29 +0000] "OPTIONS /api/user HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:54:29.257Z [info]: ::1 - - [01/Dec/2024:09:54:29 +0000] "OPTIONS /api/admin/users HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:54:29.274Z [info]: ::1 - - [01/Dec/2024:09:54:29 +0000] "OPTIONS /api/user HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T09:54:29.357Z [info]: ::1 - - [01/Dec/2024:09:54:29 +0000] "OPTIONS /api/admin/users HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:02:06.978Z [info]: Server started on port 5000
+2024-12-01T10:02:22.276Z [info]: ::1 - - [01/Dec/2024:10:02:22 +0000] "OPTIONS /api/user HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:02:22.296Z [info]: ::1 - - [01/Dec/2024:10:02:22 +0000] "OPTIONS /api/user HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:02:22.440Z [info]: ::1 - - [01/Dec/2024:10:02:22 +0000] "OPTIONS /api/admin/users HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:02:22.502Z [info]: ::1 - - [01/Dec/2024:10:02:22 +0000] "OPTIONS /api/admin/users HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:03:23.631Z [info]: Server started on port 5000
+2024-12-01T10:03:27.211Z [info]: ::1 - - [01/Dec/2024:10:03:27 +0000] "OPTIONS /api/user HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:03:27.221Z [info]: ::1 - - [01/Dec/2024:10:03:27 +0000] "OPTIONS /api/admin/users HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:03:27.259Z [info]: ::1 - - [01/Dec/2024:10:03:27 +0000] "OPTIONS /api/user HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:03:27.272Z [info]: ::1 - - [01/Dec/2024:10:03:27 +0000] "OPTIONS /api/admin/users HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:11:30.376Z [info]: Server started on port 5000
+2024-12-01T10:12:15.316Z [info]: ::1 - - [01/Dec/2024:10:12:15 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:12:15.342Z [info]: ::1 - - [01/Dec/2024:10:12:15 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:12:15.380Z [info]: ::1 - - [01/Dec/2024:10:12:15 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:12:15.393Z [info]: ::1 - - [01/Dec/2024:10:12:15 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:18:50.828Z [info]: ::1 - - [01/Dec/2024:10:18:50 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:18:50.896Z [info]: ::1 - - [01/Dec/2024:10:18:50 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:21:10.799Z [info]: ::1 - - [01/Dec/2024:10:21:10 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:21:18.279Z [info]: ::1 - - [01/Dec/2024:10:21:18 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:21:18.301Z [info]: ::1 - - [01/Dec/2024:10:21:18 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:22:19.810Z [info]: ::1 - - [01/Dec/2024:10:22:19 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:22:19.815Z [info]: ::1 - - [01/Dec/2024:10:22:19 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:22:25.558Z [info]: ::1 - - [01/Dec/2024:10:22:25 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:22:25.565Z [info]: ::1 - - [01/Dec/2024:10:22:25 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:22:25.592Z [info]: ::1 - - [01/Dec/2024:10:22:25 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:22:25.597Z [info]: ::1 - - [01/Dec/2024:10:22:25 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:39:21.736Z [info]: ::1 - - [01/Dec/2024:10:39:21 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:39:21.770Z [info]: ::1 - - [01/Dec/2024:10:39:21 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:39:21.896Z [info]: ::1 - - [01/Dec/2024:10:39:21 +0000] "GET /api/user HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:39:22.084Z [info]: ::1 - - [01/Dec/2024:10:39:22 +0000] "GET /api/admin/users HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:45:34.373Z [info]: Server started on port 5000
+2024-12-01T10:48:14.393Z [info]: Server started on port 5000
+2024-12-01T10:48:23.972Z [info]: ::1 - - [01/Dec/2024:10:48:23 +0000] "GET /api/user HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:48:23.982Z [info]: ::1 - - [01/Dec/2024:10:48:23 +0000] "GET /api/admin/users HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:48:24.108Z [info]: ::1 - - [01/Dec/2024:10:48:24 +0000] "GET /api/user HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T10:48:24.124Z [info]: ::1 - - [01/Dec/2024:10:48:24 +0000] "GET /api/admin/users HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T12:00:45.748Z [info]: ::1 - - [01/Dec/2024:12:00:45 +0000] "GET /api/user HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T12:00:45.763Z [info]: ::1 - - [01/Dec/2024:12:00:45 +0000] "GET /api/admin/users HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T12:00:45.769Z [info]: ::1 - - [01/Dec/2024:12:00:45 +0000] "GET /api/user HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T12:00:45.782Z [info]: ::1 - - [01/Dec/2024:12:00:45 +0000] "GET /api/admin/users HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T15:35:30.743Z [info]: Server started on port 5000
+2024-12-01T15:38:38.781Z [info]: ::1 - - [01/Dec/2024:15:38:38 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T15:39:00.368Z [info]: Login endpoint called
+2024-12-01T15:39:00.370Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T15:39:00.592Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T15:39:00.593Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T15:39:00.596Z [info]: ::1 - - [01/Dec/2024:15:39:00 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T15:39:26.080Z [info]: Login endpoint called
+2024-12-01T15:39:26.082Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T15:39:26.179Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T15:39:26.180Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T15:39:26.182Z [info]: ::1 - - [01/Dec/2024:15:39:26 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T15:50:58.469Z [info]: Server started on port 5000
+2024-12-01T15:55:14.952Z [info]: ::1 - - [01/Dec/2024:15:55:14 +0000] "GET /api/user HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T19:10:00.436Z [info]: Server started on port 5000
+2024-12-01T20:20:00.994Z [info]: Server started on port 5000
+2024-12-01T20:36:32.881Z [info]: Server started on port 5000
+2024-12-01T20:40:21.753Z [info]: Server started on port 5000
+2024-12-01T20:43:30.108Z [info]: Server started on port 5000
+2024-12-01T20:44:32.481Z [info]: Login endpoint called
+2024-12-01T20:44:32.485Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:44:33.090Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:44:33.092Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:44:33.103Z [info]: ::1 - - [01/Dec/2024:20:44:33 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:44:44.522Z [info]: ::1 - - [01/Dec/2024:20:44:44 +0000] "GET /api/user HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:44:44.533Z [info]: ::1 - - [01/Dec/2024:20:44:44 +0000] "GET /api/user HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:44:44.623Z [info]: ::1 - - [01/Dec/2024:20:44:44 +0000] "GET /api/admin/users HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:44:44.637Z [info]: ::1 - - [01/Dec/2024:20:44:44 +0000] "GET /api/admin/users HTTP/1.1" 403 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:54:34.319Z [info]: Login endpoint called
+2024-12-01T20:54:34.352Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:54:34.924Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:54:34.926Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:54:34.932Z [info]: ::1 - - [01/Dec/2024:20:54:34 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:56:10.946Z [info]: Login endpoint called
+2024-12-01T20:56:10.948Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:56:11.084Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:56:11.085Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:56:11.089Z [info]: ::1 - - [01/Dec/2024:20:56:11 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:56:21.036Z [info]: Login endpoint called
+2024-12-01T20:56:21.037Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:56:21.159Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:56:21.160Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:56:21.162Z [info]: ::1 - - [01/Dec/2024:20:56:21 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:56:54.906Z [info]: Login endpoint called
+2024-12-01T20:56:54.908Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:56:55.036Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:56:55.038Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:56:55.045Z [info]: ::1 - - [01/Dec/2024:20:56:55 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:56:55.872Z [info]: Login endpoint called
+2024-12-01T20:56:55.874Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:56:56.050Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:56:56.065Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:56:56.071Z [info]: ::1 - - [01/Dec/2024:20:56:56 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T20:56:56.729Z [info]: Login endpoint called
+2024-12-01T20:56:56.737Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T20:56:56.861Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T20:56:56.862Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T20:56:56.864Z [info]: ::1 - - [01/Dec/2024:20:56:56 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T21:10:01.728Z [info]: Login endpoint called
+2024-12-01T21:10:02.805Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T21:10:03.576Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T21:10:03.587Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T21:10:03.607Z [info]: ::1 - - [01/Dec/2024:21:10:03 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T21:10:04.791Z [info]: Fetching user with ID: undefined
+2024-12-01T21:10:04.958Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\USER\OneDrive\Desktop\Writers_score\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-01T21:10:05.020Z [info]: ::1 - - [01/Dec/2024:21:10:05 +0000] "GET /api/user HTTP/1.1" 500 3278 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T21:17:36.656Z [info]: Login endpoint called
+2024-12-01T21:17:36.658Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-01T21:17:36.936Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-01T21:17:36.938Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-01T21:17:36.944Z [info]: ::1 - - [01/Dec/2024:21:17:36 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T21:17:36.962Z [info]: Fetching user with ID: undefined
+2024-12-01T21:17:36.984Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\USER\OneDrive\Desktop\Writers_score\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-01T21:17:37.001Z [info]: ::1 - - [01/Dec/2024:21:17:37 +0000] "GET /api/user HTTP/1.1" 500 3278 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-01T21:17:47.260Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-01T21:18:05.036Z [info]: Server started on port 5000
+2024-12-01T21:19:46.235Z [info]: ::1 - - [01/Dec/2024:21:19:46 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:32:09.175Z [info]: ::1 - - [02/Dec/2024:04:32:09 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:37:20.916Z [info]: ::1 - - [02/Dec/2024:04:37:20 +0000] "GET /api/categories HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:37:40.722Z [info]: Login endpoint called
+2024-12-02T04:37:40.737Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-02T04:37:41.061Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-02T04:37:41.063Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-02T04:37:41.071Z [info]: ::1 - - [02/Dec/2024:04:37:41 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:37:41.116Z [info]: Fetching user with ID: undefined
+2024-12-02T04:37:41.196Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\USER\OneDrive\Desktop\Writers_score\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-02T04:37:41.244Z [info]: ::1 - - [02/Dec/2024:04:37:41 +0000] "GET /api/user HTTP/1.1" 500 3278 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:40:42.550Z [info]: ::1 - - [02/Dec/2024:04:40:42 +0000] "GET /api/user HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:44:01.882Z [info]: ::1 - - [02/Dec/2024:04:44:01 +0000] "GET /api/user HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:44:03.378Z [info]: ::1 - - [02/Dec/2024:04:44:03 +0000] "GET /api/user HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:44:04.988Z [info]: ::1 - - [02/Dec/2024:04:44:04 +0000] "GET /api/user HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:44:29.552Z [info]: ::1 - - [02/Dec/2024:04:44:29 +0000] "GET /api/user HTTP/1.1" 401 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:49:57.211Z [info]: ::1 - - [02/Dec/2024:04:49:57 +0000] "GET /api/auth/login HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:50:53.412Z [info]: ::1 - - [02/Dec/2024:04:50:53 +0000] "GET /api/auth/register HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:51:26.857Z [info]: ::1 - - [02/Dec/2024:04:51:26 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:51:26.883Z [info]: ::1 - - [02/Dec/2024:04:51:26 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:51:51.095Z [info]: Register endpoint called
+2024-12-02T04:51:51.100Z [info]: Starting user registration process
+2024-12-02T04:51:51.125Z [warn]: Registration failed: Email claudebrilliant@gmail.com is already in use
+2024-12-02T04:51:51.164Z [error]: Error in register controller: Email is already in use
+2024-12-02T04:51:51.194Z [warn]: Error: Email is already in use (status: 400)
+2024-12-02T04:51:51.197Z [info]: ::1 - - [02/Dec/2024:04:51:51 +0000] "POST /api/auth/register HTTP/1.1" 400 50 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:52:05.908Z [info]: Register endpoint called
+2024-12-02T04:52:05.910Z [info]: Starting user registration process
+2024-12-02T04:52:06.133Z [info]: User created with email: claudebrillian2t@gmail.com
+2024-12-02T04:52:06.134Z [info]: User registered successfully: claudebrillian2t@gmail.com
+2024-12-02T04:52:06.135Z [info]: ::1 - - [02/Dec/2024:04:52:06 +0000] "POST /api/auth/register HTTP/1.1" 201 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:52:36.996Z [info]: ::1 - - [02/Dec/2024:04:52:36 +0000] "GET /api/auth/register HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:53:02.070Z [info]: Login endpoint called
+2024-12-02T04:53:02.072Z [info]: User login attempt: claudebrilliant@gmail.com
+2024-12-02T04:53:02.221Z [info]: User logged in: claudebrilliant@gmail.com
+2024-12-02T04:53:02.223Z [info]: User logged in successfully: claudebrilliant@gmail.com
+2024-12-02T04:53:02.225Z [info]: ::1 - - [02/Dec/2024:04:53:02 +0000] "POST /api/auth/login HTTP/1.1" 200 239 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:53:02.244Z [info]: Fetching user with ID: undefined
+2024-12-02T04:53:02.280Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\USER\OneDrive\Desktop\Writers_score\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-02T04:53:02.306Z [info]: ::1 - - [02/Dec/2024:04:53:02 +0000] "GET /api/user HTTP/1.1" 500 3278 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+2024-12-02T04:54:49.567Z [info]: Received shutdown signal. Shutting down gracefully...

@@ -1,0 +1,933 @@
+2024-12-08T09:12:52.371Z [info]: Server started on port 5000
+2024-12-08T09:15:57.841Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T09:16:02.501Z [info]: Server started on port 5000
+2024-12-08T09:30:43.514Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T09:32:05.771Z [info]: Server started on port 5000
+2024-12-08T09:32:36.967Z [info]: ::1 - - [08/Dec/2024:09:32:36 +0000] "POST /api/auth/login HTTP/1.1" 500 35 "-" "curl/8.7.1"
+2024-12-08T09:38:20.478Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T09:38:23.289Z [info]: Server started on port 5000
+2024-12-08T09:38:33.878Z [info]: ::1 - - [08/Dec/2024:09:38:33 +0000] "POST /api/auth/login HTTP/1.1" 500 35 "-" "curl/8.7.1"
+2024-12-08T09:49:55.440Z [info]: Server started on port 5000
+2024-12-08T09:49:59.449Z [info]: ::1 - - [08/Dec/2024:09:49:59 +0000] "POST /api/auth/login HTTP/1.1" 500 35 "-" "curl/8.7.1"
+2024-12-08T09:50:34.021Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T09:50:36.617Z [info]: Server started on port 5000
+2024-12-08T09:50:42.082Z [info]: ::1 - - [08/Dec/2024:09:50:42 +0000] "POST /api/auth/login HTTP/1.1" 500 35 "-" "curl/8.7.1"
+2024-12-08T09:52:25.259Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T09:52:55.635Z [info]: Server started on port 5000
+2024-12-08T09:52:58.092Z [info]: ::1 - - [08/Dec/2024:09:52:58 +0000] "POST /api/auth/login HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T10:14:15.294Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:10:14:15 +0000] "PUT /api/users/f4f169bc-0aa7-4d2e-a1bd-2ea71666e1f2 HTTP/1.1" 404 29 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T10:15:41.135Z [info]: ::1 - - [08/Dec/2024:10:15:41 +0000] "GET /api/categories HTTP/1.1" 200 63 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:15:41.139Z [info]: ::1 - - [08/Dec/2024:10:15:41 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:27:16.197Z [info]: ::1 - - [08/Dec/2024:10:27:16 +0000] "GET /api/categories HTTP/1.1" 200 688 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:27:16.204Z [info]: ::1 - - [08/Dec/2024:10:27:16 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:27:30.106Z [info]: ::1 - - [08/Dec/2024:10:27:30 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:27:30.125Z [info]: ::1 - - [08/Dec/2024:10:27:30 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:28:37.316Z [info]: ::1 - - [08/Dec/2024:10:28:37 +0000] "POST /api/auth/register HTTP/1.1" 201 391 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:29:07.469Z [info]: ::1 - - [08/Dec/2024:10:29:07 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:29:07.473Z [info]: ::1 - - [08/Dec/2024:10:29:07 +0000] "GET /api/categories HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:29:13.447Z [info]: ::1 - - [08/Dec/2024:10:29:13 +0000] "POST /api/auth/login HTTP/1.1" 200 365 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:29:36.414Z [info]: ::1 - - [08/Dec/2024:10:29:36 +0000] "GET /api/profiles/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:29:36.419Z [info]: ::1 - - [08/Dec/2024:10:29:36 +0000] "GET /api/profiles/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:30:38.830Z [info]: ::1 - - [08/Dec/2024:10:30:38 +0000] "GET /api/profiles/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T10:30:38.834Z [info]: ::1 - - [08/Dec/2024:10:30:38 +0000] "GET /api/profiles/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T11:57:57.665Z [info]: ::1 - - [08/Dec/2024:11:57:57 +0000] "POST /api/auth/login HTTP/1.1" 200 365 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:19:05.133Z [info]: ::1 - - [08/Dec/2024:12:19:05 +0000] "POST /api/auth/login HTTP/1.1" 200 365 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:24:59.177Z [info]: ::1 - - [08/Dec/2024:12:24:59 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:24:59.179Z [info]: ::1 - - [08/Dec/2024:12:24:59 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:25:00.000Z [info]: ::1 - - [08/Dec/2024:12:25:00 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:25:00.004Z [info]: ::1 - - [08/Dec/2024:12:25:00 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:08.577Z [info]: ::1 - - [08/Dec/2024:12:27:08 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:08.590Z [info]: ::1 - - [08/Dec/2024:12:27:08 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:08.988Z [info]: ::1 - - [08/Dec/2024:12:27:08 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:08.990Z [info]: ::1 - - [08/Dec/2024:12:27:08 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:45.446Z [info]: ::1 - - [08/Dec/2024:12:27:45 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:45.450Z [info]: ::1 - - [08/Dec/2024:12:27:45 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:45.455Z [info]: ::1 - - [08/Dec/2024:12:27:45 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:27:45.470Z [info]: ::1 - - [08/Dec/2024:12:27:45 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:29:05.037Z [info]: ::1 - - [08/Dec/2024:12:29:05 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:29:05.984Z [info]: ::1 - - [08/Dec/2024:12:29:05 +0000] "GET /api/user/profile HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:32:26.010Z [info]: Fetching user with ID: undefined
+2024-12-08T12:32:26.073Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T12:32:26.076Z [info]: ::1 - - [08/Dec/2024:12:32:26 +0000] "GET /api/user/ HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:32:26.081Z [info]: Fetching user with ID: undefined
+2024-12-08T12:32:26.084Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T12:32:26.086Z [info]: ::1 - - [08/Dec/2024:12:32:26 +0000] "GET /api/user/ HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:35:07.106Z [info]: ::1 - - [08/Dec/2024:12:35:07 +0000] "GET /user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T12:46:55.104Z [info]: ::1 - - [08/Dec/2024:12:46:55 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:46:56.001Z [info]: ::1 - - [08/Dec/2024:12:46:56 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:30.050Z [info]: ::1 - - [08/Dec/2024:12:49:30 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:30.069Z [info]: ::1 - - [08/Dec/2024:12:49:30 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:31.004Z [info]: ::1 - - [08/Dec/2024:12:49:31 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:31.007Z [info]: ::1 - - [08/Dec/2024:12:49:31 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:39.367Z [info]: ::1 - - [08/Dec/2024:12:49:39 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:39.374Z [info]: ::1 - - [08/Dec/2024:12:49:39 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:57.152Z [info]: Fetching user with ID: undefined
+2024-12-08T12:49:57.334Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T12:49:57.342Z [info]: ::1 - - [08/Dec/2024:12:49:57 +0000] "GET /api/user?id=24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:49:57.983Z [info]: Fetching user with ID: undefined
+2024-12-08T12:49:57.986Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T12:49:57.989Z [info]: ::1 - - [08/Dec/2024:12:49:57 +0000] "GET /api/user?id=24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:50:18.106Z [info]: ::1 - - [08/Dec/2024:12:50:18 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:50:18.976Z [info]: ::1 - - [08/Dec/2024:12:50:18 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:51:38.315Z [info]: ::1 - - [08/Dec/2024:12:51:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:51:38.318Z [info]: ::1 - - [08/Dec/2024:12:51:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:51:48.506Z [info]: Fetching user with ID: undefined
+2024-12-08T12:51:48.509Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T12:51:48.512Z [info]: ::1 - - [08/Dec/2024:12:51:48 +0000] "GET /api/user HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:51:48.982Z [info]: Fetching user with ID: undefined
+2024-12-08T12:51:48.984Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T12:51:48.992Z [info]: ::1 - - [08/Dec/2024:12:51:48 +0000] "GET /api/user HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T12:56:22.524Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:56:22 +0000] "PUT /api/users/f4f169bc-0aa7-4d2e-a1bd-2ea71666e1f2 HTTP/1.1" 404 29 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:56:32.533Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:56:32 +0000] "GET /api/users HTTP/1.1" 403 25 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:56:41.316Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:56:41 +0000] "GET /api/users HTTP/1.1" 403 25 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:57:05.666Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:57:05 +0000] "GET /api/users HTTP/1.1" 403 25 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:57:50.947Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:57:50 +0000] "GET /api/users HTTP/1.1" 403 52 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:58:02.844Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:58:02 +0000] "GET /api/users/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:58:44.054Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:58:44 +0000] "GET /api/users/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:58:46.545Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:12:58:46 +0000] "GET /api/users HTTP/1.1" 403 52 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T12:59:35.565Z [info]: ::1 - - [08/Dec/2024:12:59:35 +0000] "GET /user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T13:00:30.811Z [info]: Fetching user with ID: undefined
+2024-12-08T13:00:30.918Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T13:00:30.923Z [info]: ::1 - - [08/Dec/2024:13:00:30 +0000] "GET /api/user HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:00:30.929Z [info]: Fetching user with ID: undefined
+2024-12-08T13:00:30.933Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T13:00:30.935Z [info]: ::1 - - [08/Dec/2024:13:00:30 +0000] "GET /api/user HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:00:54.049Z [info]: Server started on port 5000
+2024-12-08T13:00:59.711Z [info]: Fetching user with ID: undefined
+2024-12-08T13:01:00.107Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T13:01:00.120Z [info]: ::1 - - [08/Dec/2024:13:01:00 +0000] "GET /api/user HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:01:00.126Z [info]: Fetching user with ID: undefined
+2024-12-08T13:01:00.137Z [error]: Error fetching user with ID: undefined 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jemo\IdeaProjects\Writerscore_Agency\server\src\services\user.service.ts:19:22
+
+  16  * Get user by ID
+  17  */
+  18 export const getUserById = async (id: string): Promise<User | null> => {
+→ 19   return prisma.user.findUnique({
+         where: {
+           id: undefined,
+       ?   email?: String,
+       ?   AND?: UserWhereInput | UserWhereInput[],
+       ?   OR?: UserWhereInput[],
+       ?   NOT?: UserWhereInput | UserWhereInput[],
+       ?   password?: StringFilter | String,
+       ?   role?: EnumRoleFilter | Role,
+       ?   status?: EnumAccountStatusFilter | AccountStatus,
+       ?   emailVerified?: BoolFilter | Boolean,
+       ?   isActivated?: BoolFilter | Boolean,
+       ?   createdAt?: DateTimeFilter | DateTime,
+       ?   updatedAt?: DateTimeFilter | DateTime,
+       ?   isDeleted?: BoolFilter | Boolean,
+       ?   categoryId?: StringNullableFilter | String | Null,
+       ?   profile?: ProfileNullableRelationFilter | ProfileWhereInput | Null,
+       ?   taskApplications?: TaskApplicationListRelationFilter,
+       ?   trainingApplications?: TrainingApplicationListRelationFilter,
+       ?   assignedTasks?: TaskListRelationFilter,
+       ?   transactions?: TransactionListRelationFilter,
+       ?   category?: CategoryNullableRelationFilter | CategoryWhereInput | Null
+         },
+         include: {
+           profile: true,
+           assignedTasks: true,
+           transactions: true,
+           category: true
+         }
+       })
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-12-08T13:01:00.144Z [info]: ::1 - - [08/Dec/2024:13:01:00 +0000] "GET /api/user HTTP/1.1" 500 3284 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:04:24.868Z [info]: ::1 - - [08/Dec/2024:13:04:24 +0000] "GET /api/ HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:04:24.990Z [info]: ::1 - - [08/Dec/2024:13:04:24 +0000] "GET /api/ HTTP/1.1" 404 29 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:04:41.521Z [info]: ::1 - - [08/Dec/2024:13:04:41 +0000] "GET /24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T13:05:19.126Z [info]: Server started on port 5000
+2024-12-08T13:05:23.126Z [info]: ::1 - - [08/Dec/2024:13:05:23 +0000] "GET /24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T13:05:31.040Z [info]: ::1 - - [08/Dec/2024:13:05:31 +0000] "GET /user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T13:05:49.234Z [info]: ::1 - - [08/Dec/2024:13:05:49 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T13:05:58.805Z [info]: Server started on port 5000
+2024-12-08T13:06:00.585Z [info]: ::1 - - [08/Dec/2024:13:06:00 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T13:06:23.899Z [info]: Server started on port 5000
+2024-12-08T13:06:32.521Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:06:32.588Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:06:32.593Z [info]: ::1 - - [08/Dec/2024:13:06:32 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 200 409 "-" "curl/8.7.1"
+2024-12-08T13:06:47.107Z [info]: Server started on port 5000
+2024-12-08T13:07:30.446Z [info]: Fetching user with ID: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo
+2024-12-08T13:07:30.620Z [warn]: User with ID: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo not found
+2024-12-08T13:07:30.628Z [info]: ::1 - - [08/Dec/2024:13:07:30 +0000] "GET /api/user/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo HTTP/1.1" 404 28 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:07:30.978Z [info]: Fetching user with ID: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo
+2024-12-08T13:07:30.981Z [warn]: User with ID: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo not found
+2024-12-08T13:07:30.982Z [info]: ::1 - - [08/Dec/2024:13:07:30 +0000] "GET /api/user/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo HTTP/1.1" 404 28 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:08:01.831Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:01.837Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:01.839Z [info]: ::1 - - [08/Dec/2024:13:08:01 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 200 409 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:08:02.007Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:02.012Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:02.013Z [info]: ::1 - - [08/Dec/2024:13:08:02 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:08:57.581Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.588Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.590Z [info]: ::1 - - [08/Dec/2024:13:08:57 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:08:57.604Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.609Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.610Z [info]: ::1 - - [08/Dec/2024:13:08:57 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:08:57.980Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.984Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.985Z [info]: ::1 - - [08/Dec/2024:13:08:57 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:08:57.989Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.992Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:08:57.994Z [info]: ::1 - - [08/Dec/2024:13:08:57 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:09:05.840Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:09:05.846Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:09:05.850Z [info]: ::1 - - [08/Dec/2024:13:09:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:09:05.855Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:09:05.861Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:09:05.863Z [info]: ::1 - - [08/Dec/2024:13:09:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:11:57.980Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:57.983Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:57.985Z [info]: ::1 - - [08/Dec/2024:13:11:57 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:11:57.986Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:57.990Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:57.991Z [info]: ::1 - - [08/Dec/2024:13:11:57 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:11:57.997Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:58.000Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:58.001Z [info]: ::1 - - [08/Dec/2024:13:11:58 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:11:58.004Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:58.007Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:11:58.008Z [info]: ::1 - - [08/Dec/2024:13:11:58 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:13:36.975Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:37.048Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:37.049Z [info]: ::1 - - [08/Dec/2024:13:13:37 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:13:37.052Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:37.056Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:37.057Z [info]: ::1 - - [08/Dec/2024:13:13:37 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:13:42.054Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:42.058Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:42.060Z [info]: ::1 - - [08/Dec/2024:13:13:42 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:13:42.065Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:42.072Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:13:42.074Z [info]: ::1 - - [08/Dec/2024:13:13:42 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:15:05.285Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.304Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.313Z [info]: ::1 - - [08/Dec/2024:13:15:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:15:05.322Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.333Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.334Z [info]: ::1 - - [08/Dec/2024:13:15:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:15:05.984Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.987Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.988Z [info]: ::1 - - [08/Dec/2024:13:15:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:15:05.990Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.993Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:05.996Z [info]: ::1 - - [08/Dec/2024:13:15:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:15:11.478Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:11.484Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:11.486Z [info]: ::1 - - [08/Dec/2024:13:15:11 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:15:11.490Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:11.494Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:15:11.496Z [info]: ::1 - - [08/Dec/2024:13:15:11 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:27.591Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:27.595Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:27.597Z [info]: ::1 - - [08/Dec/2024:13:16:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:27.601Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:27.608Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:27.610Z [info]: ::1 - - [08/Dec/2024:13:16:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:27.989Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:27.996Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:27.997Z [info]: ::1 - - [08/Dec/2024:13:16:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:28.003Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:28.010Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:28.012Z [info]: ::1 - - [08/Dec/2024:13:16:28 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:35.635Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:35.639Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:35.640Z [info]: ::1 - - [08/Dec/2024:13:16:35 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:35.996Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:36.096Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:36.097Z [info]: ::1 - - [08/Dec/2024:13:16:36 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:43.134Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:43.138Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:43.140Z [info]: ::1 - - [08/Dec/2024:13:16:43 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:43.142Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:43.145Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:43.146Z [info]: ::1 - - [08/Dec/2024:13:16:43 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:53.795Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:53.800Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:53.801Z [info]: ::1 - - [08/Dec/2024:13:16:53 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:16:53.804Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:53.808Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:16:53.809Z [info]: ::1 - - [08/Dec/2024:13:16:53 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:17:14.625Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:17:14.629Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:17:14.629Z [info]: ::1 - - [08/Dec/2024:13:17:14 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:17:15.027Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:17:15.038Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:17:15.059Z [info]: ::1 - - [08/Dec/2024:13:17:15 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:06.013Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:06.016Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:06.017Z [info]: ::1 - - [08/Dec/2024:13:18:06 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:06.979Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:06.982Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:06.983Z [info]: ::1 - - [08/Dec/2024:13:18:06 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:21.766Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:21.770Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:21.770Z [info]: ::1 - - [08/Dec/2024:13:18:21 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:21.980Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:21.984Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:21.987Z [info]: ::1 - - [08/Dec/2024:13:18:21 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:28.226Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:28.232Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:28.233Z [info]: ::1 - - [08/Dec/2024:13:18:28 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:28.238Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:28.242Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:28.244Z [info]: ::1 - - [08/Dec/2024:13:18:28 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:38.481Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:38.603Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:38.606Z [info]: ::1 - - [08/Dec/2024:13:18:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:38.977Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:38.980Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:38.981Z [info]: ::1 - - [08/Dec/2024:13:18:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:52.724Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.727Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.729Z [info]: ::1 - - [08/Dec/2024:13:18:52 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:52.731Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.735Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.736Z [info]: ::1 - - [08/Dec/2024:13:18:52 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:52.979Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.983Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.984Z [info]: ::1 - - [08/Dec/2024:13:18:52 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:18:52.988Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.994Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:18:52.995Z [info]: ::1 - - [08/Dec/2024:13:18:52 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:22:46.931Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:22:46.935Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:22:46.936Z [info]: ::1 - - [08/Dec/2024:13:22:46 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:22:46.939Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:22:46.941Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:22:46.942Z [info]: ::1 - - [08/Dec/2024:13:22:46 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:05.733Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:05.738Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:05.739Z [info]: ::1 - - [08/Dec/2024:13:23:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:05.741Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:05.744Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:05.746Z [info]: ::1 - - [08/Dec/2024:13:23:05 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:13.635Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:13.638Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:13.639Z [info]: ::1 - - [08/Dec/2024:13:23:13 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:13.642Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:13.647Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:13.648Z [info]: ::1 - - [08/Dec/2024:13:23:13 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:13.991Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:13.995Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:13.996Z [info]: ::1 - - [08/Dec/2024:13:23:13 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:13.999Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:14.003Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:14.004Z [info]: ::1 - - [08/Dec/2024:13:23:14 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:18.694Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:18.697Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:18.698Z [info]: ::1 - - [08/Dec/2024:13:23:18 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:19.030Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:19.032Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:19.033Z [info]: ::1 - - [08/Dec/2024:13:23:19 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:27.484Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:27.487Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:27.488Z [info]: ::1 - - [08/Dec/2024:13:23:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:27.492Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:27.495Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:27.496Z [info]: ::1 - - [08/Dec/2024:13:23:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:27.999Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:28.004Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:28.006Z [info]: ::1 - - [08/Dec/2024:13:23:28 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:28.017Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:28.023Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:28.025Z [info]: ::1 - - [08/Dec/2024:13:23:28 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:37.829Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:37.832Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:37.832Z [info]: ::1 - - [08/Dec/2024:13:23:37 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:37.836Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:37.839Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:37.840Z [info]: ::1 - - [08/Dec/2024:13:23:37 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:38.028Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:38.034Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:38.036Z [info]: ::1 - - [08/Dec/2024:13:23:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:38.041Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:38.049Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:38.050Z [info]: ::1 - - [08/Dec/2024:13:23:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:47.051Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:47.236Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:47.237Z [info]: ::1 - - [08/Dec/2024:13:23:47 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:47.975Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:47.978Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:47.979Z [info]: ::1 - - [08/Dec/2024:13:23:47 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:50.798Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:50.801Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:50.802Z [info]: ::1 - - [08/Dec/2024:13:23:50 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:23:50.979Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:50.981Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:23:50.982Z [info]: ::1 - - [08/Dec/2024:13:23:50 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:33.066Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:33.070Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:33.071Z [info]: ::1 - - [08/Dec/2024:13:25:33 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:33.073Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:33.078Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:33.079Z [info]: ::1 - - [08/Dec/2024:13:25:33 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:37.048Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:37.051Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:37.052Z [info]: ::1 - - [08/Dec/2024:13:25:37 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:37.054Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:37.057Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:37.059Z [info]: ::1 - - [08/Dec/2024:13:25:37 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:39.446Z [info]: ::1 - - [08/Dec/2024:13:25:39 +0000] "GET /api/profiles/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:39.451Z [info]: ::1 - - [08/Dec/2024:13:25:39 +0000] "GET /api/profiles/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 31 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:45.564Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:45.569Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:45.570Z [info]: ::1 - - [08/Dec/2024:13:25:45 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:25:45.573Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:45.577Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:25:45.578Z [info]: ::1 - - [08/Dec/2024:13:25:45 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:26:38.200Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:26:38.205Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:26:38.207Z [info]: ::1 - - [08/Dec/2024:13:26:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:26:38.216Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:26:38.220Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:26:38.221Z [info]: ::1 - - [08/Dec/2024:13:26:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:27:00.129Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:00.133Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:00.135Z [info]: ::1 - - [08/Dec/2024:13:27:00 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:27:00.137Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:00.140Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:00.141Z [info]: ::1 - - [08/Dec/2024:13:27:00 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:27:16.229Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:16.234Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:16.235Z [info]: ::1 - - [08/Dec/2024:13:27:16 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:27:16.238Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:16.242Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:27:16.243Z [info]: ::1 - - [08/Dec/2024:13:27:16 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:27:58.237Z [info]: ::ffff:127.0.0.1 - - [08/Dec/2024:13:27:58 +0000] "GET /api/users/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 29 "-" "IntelliJ HTTP Client/IntelliJ IDEA 2024.3"
+2024-12-08T13:41:23.680Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:23.764Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:23.765Z [info]: ::1 - - [08/Dec/2024:13:41:23 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:41:23.768Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:23.772Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:23.773Z [info]: ::1 - - [08/Dec/2024:13:41:23 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:41:49.019Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:49.023Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:49.025Z [info]: ::1 - - [08/Dec/2024:13:41:49 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:41:49.027Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:49.033Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:41:49.035Z [info]: ::1 - - [08/Dec/2024:13:41:49 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:46:23.877Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:23.941Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:23.942Z [info]: ::1 - - [08/Dec/2024:13:46:23 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:46:23.944Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:23.949Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:23.950Z [info]: ::1 - - [08/Dec/2024:13:46:23 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:46:27.309Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:27.315Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:27.316Z [info]: ::1 - - [08/Dec/2024:13:46:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T13:46:27.318Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:27.323Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T13:46:27.324Z [info]: ::1 - - [08/Dec/2024:13:46:27 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:00:38.605Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:38.697Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:38.698Z [info]: ::1 - - [08/Dec/2024:14:00:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:00:38.702Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:38.707Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:38.708Z [info]: ::1 - - [08/Dec/2024:14:00:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:00:46.692Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:46.695Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:46.696Z [info]: ::1 - - [08/Dec/2024:14:00:46 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:00:46.702Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:46.705Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:00:46.706Z [info]: ::1 - - [08/Dec/2024:14:00:46 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:10:07.491Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:07.565Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:07.566Z [info]: ::1 - - [08/Dec/2024:14:10:07 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:10:07.568Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:07.572Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:07.573Z [info]: ::1 - - [08/Dec/2024:14:10:07 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:10:15.233Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:15.237Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:15.239Z [info]: ::1 - - [08/Dec/2024:14:10:15 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:10:15.242Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:15.245Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:15.246Z [info]: ::1 - - [08/Dec/2024:14:10:15 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:10:22.660Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:22.664Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:22.665Z [info]: ::1 - - [08/Dec/2024:14:10:22 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:10:22.668Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:22.671Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:10:22.672Z [info]: ::1 - - [08/Dec/2024:14:10:22 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:14:15.181Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:14:15.185Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:14:15.186Z [info]: ::1 - - [08/Dec/2024:14:14:15 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:14:15.190Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:14:15.192Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:14:15.194Z [info]: ::1 - - [08/Dec/2024:14:14:15 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:18:04.435Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:04.504Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:04.505Z [info]: ::1 - - [08/Dec/2024:14:18:04 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:18:04.508Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:04.511Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:04.512Z [info]: ::1 - - [08/Dec/2024:14:18:04 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:18:13.160Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:13.164Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:13.166Z [info]: ::1 - - [08/Dec/2024:14:18:13 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:18:13.169Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:13.172Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T14:18:13.173Z [info]: ::1 - - [08/Dec/2024:14:18:13 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T14:44:22.550Z [info]: Server started on port 5000
+2024-12-08T14:47:23.895Z [info]: Server started on port 5000
+2024-12-08T14:51:06.624Z [info]: Server started on port 5000
+2024-12-08T14:56:46.331Z [info]: Server started on port 5000
+2024-12-08T14:59:11.153Z [info]: Server started on port 5000
+2024-12-08T15:09:59.977Z [info]: Server started on port 5000
+2024-12-08T15:12:07.903Z [info]: Server started on port 5000
+2024-12-08T15:12:10.508Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T15:12:17.138Z [info]: Server started on port 5000
+2024-12-08T15:13:13.058Z [info]: Server started on port 5000
+2024-12-08T15:15:38.733Z [info]: Server started on port 5000
+2024-12-08T15:16:48.411Z [info]: Server started on port 5000
+2024-12-08T15:17:07.553Z [info]: Server started on port 5000
+2024-12-08T15:22:48.514Z [info]: Server started on port 5000
+2024-12-08T15:30:27.545Z [info]: Server started on port 5000
+2024-12-08T15:30:30.997Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:30:31.065Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:30:31.070Z [info]: ::1 - - [08/Dec/2024:15:30:31 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 200 409 "-" "curl/8.7.1"
+2024-12-08T15:34:40.695Z [info]: ::1 - - [08/Dec/2024:15:34:40 +0000] "GET /api/trainings/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 32 "-" "curl/8.7.1"
+2024-12-08T15:35:02.704Z [info]: ::1 - - [08/Dec/2024:15:35:02 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:35:39.793Z [info]: Server started on port 5000
+2024-12-08T15:35:41.353Z [info]: ::1 - - [08/Dec/2024:15:35:41 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:37:16.253Z [info]: Server started on port 5000
+2024-12-08T15:37:19.333Z [info]: ::1 - - [08/Dec/2024:15:37:19 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:37:45.736Z [info]: Server started on port 5000
+2024-12-08T15:37:52.541Z [info]: ::1 - - [08/Dec/2024:15:37:52 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:38:48.392Z [info]: Server started on port 5000
+2024-12-08T15:38:52.680Z [info]: ::1 - - [08/Dec/2024:15:38:52 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:39:05.899Z [info]: Server started on port 5000
+2024-12-08T15:40:19.423Z [info]: ::1 - - [08/Dec/2024:15:40:19 +0000] "GET /trainings HTTP/1.1" 404 29 "-" "curl/8.7.1"
+2024-12-08T15:40:23.570Z [info]: ::1 - - [08/Dec/2024:15:40:23 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:41:37.929Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:38.109Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:38.111Z [info]: ::1 - - [08/Dec/2024:15:41:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:41:38.114Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:38.120Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:38.122Z [info]: ::1 - - [08/Dec/2024:15:41:38 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:41:40.816Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:40.823Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:40.825Z [info]: ::1 - - [08/Dec/2024:15:41:40 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:41:40.830Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:40.834Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:40.835Z [info]: ::1 - - [08/Dec/2024:15:41:40 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:41:48.612Z [info]: ::1 - - [08/Dec/2024:15:41:48 +0000] "POST /api/auth/login HTTP/1.1" 200 365 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:41:48.657Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:48.662Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:48.663Z [info]: ::1 - - [08/Dec/2024:15:41:48 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:41:48.666Z [info]: Fetching user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:48.670Z [info]: Fetched user with ID: 24f921dc-069c-4143-a9c4-d293a8da5722
+2024-12-08T15:41:48.672Z [info]: ::1 - - [08/Dec/2024:15:41:48 +0000] "GET /api/user/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-12-08T15:45:17.743Z [info]: Server started on port 5000
+2024-12-08T15:51:00.454Z [info]: Server started on port 5000
+2024-12-08T15:51:06.956Z [info]: ::1 - - [08/Dec/2024:15:51:06 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T15:53:53.149Z [info]: ::1 - - [08/Dec/2024:15:53:53 +0000] "GET /api/trainings/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 32 "-" "curl/8.7.1"
+2024-12-08T18:42:49.058Z [info]: Server started on port 5000
+2024-12-08T18:43:01.003Z [info]: ::1 - - [08/Dec/2024:18:43:01 +0000] "GET /api/trainings/24f921dc-069c-4143-a9c4-d293a8da5722 HTTP/1.1" 404 32 "-" "curl/8.7.1"
+2024-12-08T18:43:11.661Z [info]: ::1 - - [08/Dec/2024:18:43:11 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:46:26.498Z [info]: Server started on port 5000
+2024-12-08T18:46:27.610Z [info]: ::1 - - [08/Dec/2024:18:46:27 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:46:30.705Z [info]: ::1 - - [08/Dec/2024:18:46:30 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:47:23.121Z [info]: Server started on port 5000
+2024-12-08T18:47:55.264Z [info]: ::1 - - [08/Dec/2024:18:47:55 +0000] "GET /api/trainings/51482940-0ed8-4bdc-bd45-8ffa5fa802d0 HTTP/1.1" 200 372 "-" "curl/8.7.1"
+2024-12-08T18:52:36.987Z [info]: Server started on port 5000
+2024-12-08T18:52:43.866Z [info]: ::1 - - [08/Dec/2024:18:52:43 +0000] "GET /api/trainings/51482940-0ed8-4bdc-bd45-8ffa5fa802d0 HTTP/1.1" 200 372 "-" "curl/8.7.1"
+2024-12-08T18:52:56.787Z [info]: ::1 - - [08/Dec/2024:18:52:56 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:53:26.666Z [info]: Server started on port 5000
+2024-12-08T18:53:33.664Z [info]: Server started on port 5000
+2024-12-08T18:53:40.216Z [info]: ::1 - - [08/Dec/2024:18:53:40 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:53:56.894Z [info]: Server started on port 5000
+2024-12-08T18:53:58.782Z [info]: ::1 - - [08/Dec/2024:18:53:58 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:54:29.779Z [info]: Server started on port 5000
+2024-12-08T18:54:33.667Z [info]: ::1 - - [08/Dec/2024:18:54:33 +0000] "GET /api/trainings/51482940-0ed8-4bdc-bd45-8ffa5fa802d0 HTTP/1.1" 200 372 "-" "curl/8.7.1"
+2024-12-08T18:55:12.873Z [info]: Server started on port 5000
+2024-12-08T18:56:16.326Z [info]: Server started on port 5000
+2024-12-08T18:56:23.931Z [info]: ::1 - - [08/Dec/2024:18:56:23 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:56:33.579Z [info]: Server started on port 5000
+2024-12-08T18:58:55.245Z [info]: Server started on port 5000
+2024-12-08T18:58:57.528Z [info]: ::1 - - [08/Dec/2024:18:58:57 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T18:59:24.953Z [info]: Server started on port 5000
+2024-12-08T19:01:43.380Z [info]: Server started on port 5000
+2024-12-08T19:02:10.562Z [info]: ::1 - - [08/Dec/2024:19:02:10 +0000] "GET /api/training HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T19:10:51.374Z [info]: Server started on port 5000
+2024-12-08T19:11:00.389Z [info]: ::1 - - [08/Dec/2024:19:11:00 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T19:11:15.883Z [info]: Server started on port 5000
+2024-12-08T19:11:18.514Z [info]: ::1 - - [08/Dec/2024:19:11:18 +0000] "GET /api/trainings HTTP/1.1" 403 52 "-" "curl/8.7.1"
+2024-12-08T19:13:03.956Z [info]: Server started on port 5000
+2024-12-08T19:13:07.778Z [info]: ::1 - - [08/Dec/2024:19:13:07 +0000] "GET /api/trainings HTTP/1.1" 403 57 "-" "curl/8.7.1"
+2024-12-08T19:13:12.738Z [info]: Server started on port 5000
+2024-12-08T19:20:59.799Z [info]: Server started on port 5000
+2024-12-08T19:21:02.719Z [info]: ::1 - - [08/Dec/2024:19:21:02 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:21:09.100Z [info]: Server started on port 5000
+2024-12-08T19:21:10.814Z [info]: ::1 - - [08/Dec/2024:19:21:10 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:21:13.935Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T19:21:22.684Z [info]: Server started on port 5000
+2024-12-08T19:21:28.399Z [info]: ::1 - - [08/Dec/2024:19:21:28 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:36:57.645Z [info]: Server started on port 5000
+2024-12-08T19:37:15.530Z [info]: ::1 - - [08/Dec/2024:19:37:15 +0000] "GET /api/trainings/51482940-0ed8-4bdc-bd45-8ffa5fa802d0 HTTP/1.1" 200 372 "-" "curl/8.7.1"
+2024-12-08T19:37:41.226Z [info]: ::1 - - [08/Dec/2024:19:37:41 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:37:58.937Z [info]: ::1 - - [08/Dec/2024:19:37:58 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:43:37.435Z [info]: Server started on port 5000
+2024-12-08T19:43:40.526Z [info]: ::1 - - [08/Dec/2024:19:43:40 +0000] "GET /api/trainings HTTP/1.1" 405 53 "-" "curl/8.7.1"
+2024-12-08T19:43:52.074Z [info]: ::1 - - [08/Dec/2024:19:43:52 +0000] "GET /api/trainings HTTP/1.1" 405 53 "-" "curl/8.7.1"
+2024-12-08T19:44:43.983Z [info]: Server started on port 5000
+2024-12-08T19:44:48.075Z [info]: Fetching user with ID: trainings
+2024-12-08T19:44:48.140Z [warn]: User with ID: trainings not found
+2024-12-08T19:44:48.145Z [info]: ::1 - - [08/Dec/2024:19:44:48 +0000] "GET /api/trainings HTTP/1.1" 404 28 "-" "curl/8.7.1"
+2024-12-08T19:47:13.627Z [info]: Server started on port 5000
+2024-12-08T19:47:17.464Z [info]: Fetching user with ID: trainings
+2024-12-08T19:47:17.529Z [warn]: User with ID: trainings not found
+2024-12-08T19:47:17.534Z [info]: ::1 - - [08/Dec/2024:19:47:17 +0000] "GET /api/trainings HTTP/1.1" 404 28 "-" "curl/8.7.1"
+2024-12-08T19:47:32.469Z [info]: Server started on port 5000
+2024-12-08T19:47:36.595Z [info]: ::1 - - [08/Dec/2024:19:47:36 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:48:01.783Z [info]: Server started on port 5000
+2024-12-08T19:48:05.927Z [info]: ::1 - - [08/Dec/2024:19:48:05 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"
+2024-12-08T19:49:01.205Z [info]: Received shutdown signal. Shutting down gracefully...
+2024-12-08T19:49:12.457Z [info]: Server started on port 5000
+2024-12-08T19:49:14.136Z [info]: ::1 - - [08/Dec/2024:19:49:14 +0000] "GET /api/trainings HTTP/1.1" 403 53 "-" "curl/8.7.1"

@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\.ab212b0d17ad721a1fea821598d279e2d5c5c338-audit.json",
+    "files": [
+        {
+            "date": 1732457536859,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\application-2024-11-24.log",
+            "hash": "8809a89695dccc3a1591f32ad739d630587a5c0da5fd130430b4110050fffb79"
+        },
+        {
+            "date": 1732540869472,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\application-2024-11-25.log",
+            "hash": "c45428064a1eb3bc4df61e13b576ef62e7b515dc99a773236893a6c3650bb594"
+        },
+        {
+            "date": 1732946665666,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\application-2024-11-30.log",
+            "hash": "635c7b56e7fdf18091fbc365499e939c60a8f9c38af967155624884b861f0d04"
+        },
+        {
+            "date": 1733038619353,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\application-2024-12-01.log",
+            "hash": "5a113fff0645b30af0c9502130e0be34070f95e7c5cd492fd5af8bb78bbff116"
+        },
+        {
+            "date": 1733165520007,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\application-2024-12-02.log",
+            "hash": "9ea83e6f150a7d560fbd9842df0ebe7e940c7262ec3a694d28f16a8ff7d9b85a"
+        },
+        {
+            "date": 1733287991625,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\Writers_score\\server\\logs\\application-2024-12-03.log",
+            "hash": "3a7fa6d10ff31f9f7b4bdb7ad9fb0492ba94261ac2c2bc57c557b1d6421ab93d"
+        }
+    ],
+    "hashType": "sha256"
+}

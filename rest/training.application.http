@@ -1,0 +1,46 @@
+### Create a New Training Application
+@applicationId = ''
+POST http://localhost:5000/api/training-applications
+Content-Type: application/json
+
+{
+  "trainingId": "123e4567-e89b-12d3-a456-426614174000",
+  "userId": "456e4567-e89b-12d3-a456-426614174001",
+  "status": "PENDING"
+}
+
+### Replace `trainingId` and `userId` with valid IDs from your database.
+
+###
+
+### Get All Training Applications
+GET http://localhost:5000/api/training-applications
+Content-Type: application/json
+
+###
+
+### Get a Training Application by ID
+GET http://localhost:5000/api/training-applications/{{applicationId}}
+Content-Type: application/json
+
+# Replace `{{applicationId}}` with the ID of an existing training application.
+
+###
+
+### Update a Training Application
+PUT http://localhost:5000/api/training-applications/{{applicationId}}
+Content-Type: application/json
+
+{
+  "status": "APPROVED"
+}
+
+# Replace `{{applicationId}}` with the ID of an existing training application.
+
+###
+
+### Soft Delete a Training Application
+DELETE http://localhost:5000/api/training-applications/{{applicationId}}
+Content-Type: application/json
+
+# Replace `{{applicationId}}` with the ID of an existing training application.

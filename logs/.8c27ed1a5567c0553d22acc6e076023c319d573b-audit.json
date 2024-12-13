@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Writerscore_Agency\\server\\logs\\.8c27ed1a5567c0553d22acc6e076023c319d573b-audit.json",
+    "files": [
+        {
+            "date": 1732972883896,
+            "name": "D:\\Writerscore_Agency\\server\\logs\\application-2024-11-30.log",
+            "hash": "1fdb7541953e2d4dfe14d57e9f0a451d81980ae2a637ee603e120c0d1d6e39fa"
+        }
+    ],
+    "hashType": "sha256"
+}

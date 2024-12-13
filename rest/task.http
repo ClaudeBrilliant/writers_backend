@@ -1,0 +1,67 @@
+@token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIwMWZmODdjMC0zM2IxLTQ4OWEtOGM0YS04Y2QzNGUyM2I2MzkiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MzI5NzM5MDAsImV4cCI6MTczMjk3NzUwMH0.6SFXtoZEv_Ua79d-0891NQmkHppuJND_1_YgTWOz2Lg
+
+
+### Create a New Task
+POST http://localhost:5000/api/tasks
+Authorization:  Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "New Task",
+  "description": "Task description",
+  "price": 100.0,
+  "deadline": "2024-12-31T23:59:59.000Z",
+  "status": "PENDING"
+}
+
+# Replace with valid fields if required by your backend.
+
+###
+
+### Get All Tasks
+GET http://localhost:5000/api/tasks
+Content-Type: application/json
+
+###
+
+### Get a Task by ID
+GET http://localhost:5000/api/tasks/{{taskId}}
+Content-Type: application/json
+
+# Replace `{{taskId}}` with a valid task ID from your database.
+
+###
+
+### Update a Task
+PUT http://localhost:5000/api/tasks/{{taskId}}
+Content-Type: application/json
+
+{
+  "title": "Updated Task Title",
+  "description": "Updated Task Description",
+  "price": 150.0,
+  "status": "IN_PROGRESS"
+}
+
+# Replace `{{taskId}}` with a valid task ID.
+
+###
+
+### Soft Delete a Task
+DELETE http://localhost:5000/api/tasks/{{taskId}}
+Content-Type: application/json
+
+# Replace `{{taskId}}` with a valid task ID.
+
+###
+
+### Assign a User to a Task
+POST http://localhost:5000/api/tasks/assign
+Content-Type: application/json
+
+{
+  "taskId": "{{taskId}}",
+  "userId": "{{userId}}"
+}
+
+# Replace `{{taskId}}` with a valid task ID and `{{userId}}` with a valid user ID.

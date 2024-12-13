@@ -1,0 +1,50 @@
+### Create a New Transaction
+
+@transactionId = ''
+
+POST http://localhost:5000/api/transactions
+Content-Type: application/json
+
+{
+  "userId": "123e4567-e89b-12d3-a456-426614174000",
+  "amount": 100.5,
+  "type": "TASK_PAYMENT",
+  "status": "COMPLETED"
+}
+
+# Replace `userId` with a valid user ID from your database.
+
+###
+
+### Get All Transactions
+GET http://localhost:5000/api/transactions
+Content-Type: application/json
+
+###
+
+### Get a Transaction by ID
+GET http://localhost:5000/api/transactions/{{transactionId}}
+Content-Type: application/json
+
+# Replace `{{transactionId}}` with a valid transaction ID from your database.
+
+###
+
+### Update a Transaction
+PUT http://localhost:5000/api/transactions/{{transactionId}}
+Content-Type: application/json
+
+{
+  "amount": 200.75,
+  "status": "PENDING"
+}
+
+# Replace `{{transactionId}}` with a valid transaction ID.
+
+###
+
+### Soft Delete a Transaction
+DELETE http://localhost:5000/api/transactions/{{transactionId}}
+Content-Type: application/json
+
+# Replace `{{transactionId}}` with a valid transaction ID.

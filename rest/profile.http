@@ -1,0 +1,57 @@
+### Create a New Profile
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIwOGEwZmI2Yi1kMzQyLTQwYTYtOWFhMS1jNDFlNWVlM2ZjYWYiLCJyb2xlIjoiVVNFUiIsImlhdCI6MTczMjk3MzA3MSwiZXhwIjoxNzMyOTc2NjcxfQ.3wStsEbcVhdijXjbwGYj9WMewT0DeC5bnzqp4RxFhnM
+@profileId = bb6d23a3-fa1a-420c-9bf1-3d861970d8a5
+PUT http://localhost:5000/api/profiles/{{profileId}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "firstName": "Johnny",
+  "lastName": "Walkery",
+  "bio": "Updated bio.",
+  "phone": "0987654321",
+  "address": "456 Another Street"
+}
+
+# Replace `userId` with a valid user ID from your database.
+
+###
+
+### Get All Profiles (Requires Authentication)
+GET http://localhost:5000/api/profiles
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+# Replace `{{token}}` with a valid JWT token.
+
+###
+
+### Get a Profile by ID
+GET http://localhost:5000/api/profiles/{{profileId}}
+Content-Type: application/json
+
+# Replace `{{profileId}}` with a valid profile ID.
+
+###
+
+### Update a Profile
+PUT http://localhost:5000/api/profiles/{{profileId}}
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "bio": "Updated bio.",
+  "phone": "0987654321",
+  "address": "456 Another Street"
+}
+
+# Replace `{{profileId}}` with a valid profile ID.
+
+###
+
+### Soft Delete a Profile
+DELETE http://localhost:5000/api/profiles/{{profileId}}
+Content-Type: application/json
+
+# Replace `{{profileId}}` with a valid profile ID.

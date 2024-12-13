@@ -1,0 +1,45 @@
+# Test creating a new category (Admin only)
+
+@categoryId = f4f169bc-0aa7-4d2e-a1bd-2ea71666e1f2
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI0NGMyZDk2ZC01OTg3LTQ3ZTAtOTlmZC0xNmU3ZjhlYjAzMmEiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MzI0NjYyNjYsImV4cCI6MTczMjQ2OTg2Nn0.EfILEcrNPoxTgVA5QuS_k4kZcDk3QPklXpp0Rv8NZks
+POST http://localhost:5000/api/categories
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Writing",
+  "description": "All about docs"
+}
+
+###
+
+# Test getting all categories
+GET http://localhost:5000/api/categories
+Authorization: Bearer {{token}}
+
+###
+
+# Test getting a category by ID
+GET http://localhost:5000/api/categories/{{categoryId}}
+Authorization: Bearer {{token}}
+
+###
+
+# Test updating a category (Admin only)
+PUT http://localhost:5000/api/categories/{{categoryId}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Updated Technology",
+  "description": "Updated description about tech and gadgets"
+}
+
+###
+
+# Test soft-deleting a category (Admin only)
+DELETE http://localhost:5000/api/categories/{{categoryId}}
+Authorization: Bearer <your-admin-token>
+
+###
+

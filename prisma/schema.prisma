@@ -1,0 +1,184 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+// This is your Prisma schema file
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum AccountStatus {
+  PENDING
+  VERIFIED
+  ACTIVATED
+  SUSPENDED
+}
+
+enum TaskStatus {
+  OPEN
+  ASSIGNED
+  IN_PROGRESS
+  COMPLETED
+  OVERDUE
+  SUBMITTED
+}
+
+enum Status {
+  PENDING
+  ACCEPTED
+  REJECTED
+}
+
+enum ApplicationStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+}
+
+model User {
+  id            String        @id @default(uuid())
+  fullName      String
+  email         String        @unique
+  password      String
+  role          Role          @default(USER)
+  status        AccountStatus @default(PENDING)
+  emailVerified Boolean       @default(false)
+  isActivated   Boolean       @default(false)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  isDeleted     Boolean       @default(false)
+  phoneNumber   String
+
+  // Relations
+  profile              Profile?
+  taskApplications     TaskApplication[]
+  trainingApplications TrainingApplication[]
+  assignedTasks        Task[]
+  transactions         Transaction[]
+
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id])
+}
+
+model Profile {
+  id                  String   @id @default(uuid())
+  userId              String   @unique
+  firstName           String
+  lastName            String
+  bio                 String?  @db.Text
+  phoneNumber         String?
+  address             String?
+  skills              String[]
+  completedTasksCount Int      @default(0)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  isDeleted           Boolean  @default(false)
+
+  // Relations
+  user User @relation(fields: [userId], references: [id])
+}
+
+model Task {
+  id              String     @id @default(uuid())
+  title           String
+  description     String     @db.Text
+  price           Decimal    @db.Decimal(10, 2)
+  deadline        DateTime
+  requirementsUrl String?
+  imageUrl        String?
+  status          TaskStatus @default(OPEN)
+  assignedToId    String?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+  isDeleted       Boolean    @default(false)
+
+  // Relations
+  assignedTo   User?             @relation(fields: [assignedToId], references: [id])
+  applications TaskApplication[]
+}
+
+model TaskApplication {
+  id        String            @id @default(uuid())
+  taskId    String
+  userId    String
+  status    ApplicationStatus @default(PENDING)
+  createdAt DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+  isDeleted Boolean           @default(false)
+
+  // Relations
+  task Task @relation(fields: [taskId], references: [id])
+  user User @relation(fields: [userId], references: [id])
+}
+
+model Training {
+  id          String   @id @default(uuid())
+  title       String
+  description String   @db.Text
+  startDate   DateTime
+  endDate     DateTime
+  capacity    Int
+  price       Decimal  @db.Decimal(10, 2)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  isDeleted   Boolean  @default(false)
+
+  // Relations
+  applications TrainingApplication[]
+}
+
+model TrainingApplication {
+  id         String            @id @default(uuid())
+  trainingId String
+  userId     String
+  status     ApplicationStatus @default(PENDING)
+  createdAt  DateTime          @default(now())
+  phone      String
+  mpesaCode  String
+  updatedAt  DateTime          @updatedAt
+  isDeleted  Boolean           @default(false)
+
+  // Relations
+  training Training @relation(fields: [trainingId], references: [id])
+  user     User     @relation(fields: [userId], references: [id])
+}
+
+model Transaction {
+  id          String   @id @default(uuid())
+  userId      String
+  amount      Decimal  @db.Decimal(10, 2)
+  type        String // ACTIVATION_FEE, TASK_PAYMENT, etc.
+  status      String // PENDING, COMPLETED, FAILED
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  isDeleted   Boolean  @default(false)
+  email       String
+  phoneNumber String
+  // Relations
+  user        User     @relation(fields: [userId], references: [id])
+}
+
+model Category {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  isDeleted   Boolean  @default(false)
+
+  // Relations
+  users User[]
+}

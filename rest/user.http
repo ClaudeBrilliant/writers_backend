@@ -1,0 +1,42 @@
+### Get All Users (Admin Only)
+
+@userId = 24f921dc-069c-4143-a9c4-d293a8da5722
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZjkyMWRjLTA2OWMtNDE0My1hOWM0LWQyOTNhOGRhNTcyMiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzMzNjYwMzQ1LCJleHAiOjE3MzM3NDY3NDV9.ioj_-ws6VYu-SKR5V3TjXhOHofDSPg-sjgkvxHQMIpo
+
+GET http://localhost:5000/api/users
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+# Replace {{token}} with a valid admin JWT token.
+
+###
+
+### Get User by ID (Admin or User)
+GET http://localhost:5000/api/users/{{userId}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+# Replace {{userId}} with a valid user ID and {{token}} with a JWT token for either an admin or the same user.
+
+###
+
+### Update User (Admin or User)
+PUT http://localhost:5000/api/users/{{userId}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "email": "updateduser@example.com",
+  "password": "newsecurepassword"
+}
+
+### Replace {{userId}} with a valid user ID and {{token}} with a JWT token for either an admin or the same user.
+
+###
+
+### Soft Delete User (Admin Only)
+DELETE http://localhost:5000/api/users/{{userId}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+# Replace {{userId}} with a valid user ID and {{token}} with a JWT token for an admin.

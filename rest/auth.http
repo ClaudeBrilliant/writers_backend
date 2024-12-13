@@ -1,0 +1,69 @@
+### Test User Registration
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "Admin@example.com",
+  "password": "TestPassword123",
+  "firstName": "Admin",
+  "lastName": "User",
+  "phoneNumber": "+2547890987676",
+  "categoryId": "0fa40177-0c0c-4e3d-9841-f84b1c68125c",
+  "role": "ADMIN"
+
+}
+
+
+### Test User Login
+POST http://localhost:5000/api/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "Admin@example.com",
+  "password": "TestPassword123"
+}
+
+### Test Admin Login
+POST http://localhost:5000/api/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "TestPassword123"
+}
+
+
+
+### Test Password Reset (Logged In User)
+POST http://localhost:5000/api/auth/reset-password HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer <your_valid_jwt_token>
+
+{
+  "oldPassword": "TestPassword123",
+  "newPassword": "NewPassword123"
+}
+
+
+### Test Password Reset with Missing User ID
+POST http://localhost:5000/api/auth/reset-password HTTP/1.1
+Content-Type: application/json
+
+{
+  "oldPassword": "TestPassword123",
+  "newPassword": "NewPassword123"
+}
+
+
+
+
+### Test Reset Password with Token
+POST http://localhost:5000/api/auth/reset-password-with-token HTTP/1.1
+Content-Type: application/json
+
+{
+  "token": "valid-reset-token",
+  "newPassword": "NewPassword123"
+}
+
+

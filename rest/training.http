@@ -1,0 +1,53 @@
+### Create a New Training Session
+POST http://localhost:5000/api/trainings
+Content-Type: application/json
+
+{
+  "title": "Advanced Programming Workshop",
+  "description": "A training session on advanced programming techniques.",
+  "startDate": "2024-01-15T10:00:00.000Z",
+  "endDate": "2024-01-15T15:00:00.000Z",
+  "capacity": 30,
+  "price": 150.0
+}
+
+# Replace the values with appropriate data for your training session.
+
+###
+
+### Get All Training Sessions
+GET http://localhost:5000/api/trainings
+Content-Type: application/json
+
+###
+
+### Get a Training Session by ID
+GET http://localhost:5000/api/trainings/{{trainingId}}
+Content-Type: application/json
+
+# Replace `{{trainingId}}` with a valid training session ID from your database.
+
+###
+
+### Update a Training Session
+PUT http://localhost:5000/api/trainings/{{trainingId}}
+Content-Type: application/json
+
+{
+  "title": "Updated Training Title",
+  "description": "Updated description for the training session.",
+  "startDate": "2024-01-20T10:00:00.000Z",
+  "endDate": "2024-01-20T16:00:00.000Z",
+  "capacity": 25,
+  "price": 200.0
+}
+
+# Replace `{{trainingId}}` with a valid training session ID.
+
+###
+
+### Soft Delete a Training Session
+DELETE http://localhost:5000/api/trainings/{{trainingId}}
+Content-Type: application/json
+
+# Replace `{{trainingId}}` with a valid training session ID.

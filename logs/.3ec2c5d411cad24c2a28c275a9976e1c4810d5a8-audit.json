@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Jemo\\IdeaProjects\\Writerscore_Agency\\server\\logs\\.3ec2c5d411cad24c2a28c275a9976e1c4810d5a8-audit.json",
+    "files": [
+        {
+            "date": 1733649166200,
+            "name": "C:\\Users\\Jemo\\IdeaProjects\\Writerscore_Agency\\server\\logs\\application-2024-12-08.log",
+            "hash": "55d14f2863aa572daa1def1b54602145155a2fa58a90f32aefaab390be61f0b6"
+        },
+        {
+            "date": 1733729139666,
+            "name": "C:\\Users\\Jemo\\IdeaProjects\\Writerscore_Agency\\server\\logs\\application-2024-12-09.log",
+            "hash": "c75488918ba449a8893d8fe87a482895332f6e11631d7002f15be1f9f2de34d5"
+        },
+        {
+            "date": 1733778716427,
+            "name": "C:\\Users\\Jemo\\IdeaProjects\\Writerscore_Agency\\server\\logs\\application-2024-12-10.log",
+            "hash": "d71abaf3363cd6c3845f9a902b36a294584a33f1bfb3aed2d67271b9e64935c0"
+        },
+        {
+            "date": 1733900407932,
+            "name": "C:\\Users\\Jemo\\IdeaProjects\\Writerscore_Agency\\server\\logs\\application-2024-12-11.log",
+            "hash": "6c429b8df42d55dfa326a77157ab4ae26ebbeeb6d3db80f48b11273c34ef6da0"
+        },
+        {
+            "date": 1734095986492,
+            "name": "C:\\Users\\Jemo\\IdeaProjects\\Writerscore_Agency\\server\\logs\\application-2024-12-13.log",
+            "hash": "9a16337445d92e1b25085916fd52fc0dcb19cfcd4700344c90a7f327f83d9376"
+        }
+    ],
+    "hashType": "sha256"
+}
