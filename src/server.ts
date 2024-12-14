@@ -22,7 +22,7 @@ const allowedOrigins = [
   "http://localhost:5173", // For local development
   "https://writers-frontend-9be5f1bac35e.herokuapp.com", // Heroku frontend
     "https://writerscoreresearch.com",
-    "https://www.writerscoreresearch.com/"
+    "https://www.writerscoreresearch.com"
 ];
 
 const corsOptions: CorsOptions  = {
