@@ -14,5 +14,4 @@ router.get('/:id', authenticateJWT, authorizeRole(['ADMIN', 'USER']), getUserByI
 router.put('/:id', authenticateJWT, authorizeRole(['ADMIN', 'USER']), updateUserController); // Update user
 router.delete('/:id', authenticateJWT, authorizeRole(['ADMIN']), deleteUserController); // Delete user
 router.put('/admin/users/:id/toggle-status', authenticateJWT, authorizeRole(['ADMIN']), toggleUserStatusController);//toggle status
-
 export default router;

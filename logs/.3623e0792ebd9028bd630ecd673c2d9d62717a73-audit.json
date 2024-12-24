@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\USER\\OneDrive\\Desktop\\writers_code\\server\\logs\\.3623e0792ebd9028bd630ecd673c2d9d62717a73-audit.json",
+    "files": [
+        {
+            "date": 1734915501021,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\writers_code\\server\\logs\\application-2024-12-22.log",
+            "hash": "83c188d15a295ba4c58a5b8ecf0e17cab3783405b09f7d9f718a374c1f6d78ed"
+        },
+        {
+            "date": 1734937962259,
+            "name": "C:\\Users\\USER\\OneDrive\\Desktop\\writers_code\\server\\logs\\application-2024-12-23.log",
+            "hash": "464e758d9f61d4e0ae146d09ea6354a3f743217910b7c5953cd17d7b82ed8a80"
+        }
+    ],
+    "hashType": "sha256"
+}
