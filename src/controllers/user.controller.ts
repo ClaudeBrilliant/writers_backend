@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { getAllUsers, getUserById, updateUser, deleteUser } from '../services/user.service';
+import {getAllUsers, getUserById, updateUser, deleteUser, updateUserBalance} from '../services/user.service';
 import logger from '../config/logger.config'; // Assuming you have a logger set up
 
 /**
@@ -59,6 +59,40 @@ export const updateUserController = async (req: Request, res: Response, next: Ne
     res.status(200).json({ message: 'User updated successfully', updatedUser });
   } catch (error) {
     logger.error(`Error updating user with ID: ${req.params.id}`, error);
+    next(error);
+  }
+};
+
+
+export const payUserController = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { id } = req.params;
+    const { incrementAmount } = req.body; // The amount to increment
+
+    logger.info(`Updating user balance for ID: ${id}`);
+    logger.debug(`Increment amount: ${incrementAmount}`);
+
+    // Validate input
+    if (typeof incrementAmount !== 'number' || incrementAmount <= 0) {
+      logger.warn('Invalid increment amount provided');
+      return res.status(400).json({ message: 'Invalid increment amount' });
+    }
+
+    // Call the service to update the balance
+    const updatedUser = await updateUserBalance(id, incrementAmount);
+
+    if (!updatedUser) {
+      logger.warn(`User with ID: ${id} not found for balance update`);
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    logger.info(`User balance for ID: ${id} updated successfully`);
+    res.status(200).json({
+      message: 'User balance updated successfully',
+      updatedUser,
+    });
+  } catch (error) {
+    logger.error(`Error updating balance for user with ID: ${req.params.id}`, error);
     next(error);
   }
 };

@@ -38,7 +38,7 @@ export const getAllTransactionsController = async (_req: Request, res: Response,
  */
 export const getAllTransactionsByUserIdController = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const transactionId = req.params.userId;
+    const transactionId = req.params.id;
     const transactions = await getTransactionsByUserId(transactionId);
     res.status(200).json(transactions);
   } catch (error) {

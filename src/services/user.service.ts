@@ -23,6 +23,17 @@ export const getUserById = async (id: string): Promise<User | null> => {
 };
 
 
+export const updateUserBalance = async (id: string, incrementAmount: number) => {
+  return prisma.user.update({
+    where: {id},
+    data: {
+      accountBalance: {
+        increment: incrementAmount, // Prisma's increment feature
+      },
+    },
+  });
+};
+
 
 /**
  * Update a user
