@@ -34,6 +34,17 @@ export const updateUserBalance = async (id: string, incrementAmount: number) => 
   });
 };
 
+export const updateUserBalanceAfterWithdraw = async (id: string, decrementAmount: number) => {
+  return prisma.user.update({
+    where: { id },
+    data: {
+      accountBalance: {
+        decrement: decrementAmount,
+      },
+    },
+  });
+};
+
 
 /**
  * Update a user
